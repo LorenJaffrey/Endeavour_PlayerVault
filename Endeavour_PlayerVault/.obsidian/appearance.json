@@ -1,0 +1,16 @@
+{
+  "accentColor": "",
+  "baseFontSize": 14,
+  "theme": "obsidian",
+  "cssTheme": "ITS Theme",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "Victor Mono",
+  "enabledCssSnippets": [
+    "S - Encoded Fonts",
+    "S - Encoded Icons"
+  ]
+}

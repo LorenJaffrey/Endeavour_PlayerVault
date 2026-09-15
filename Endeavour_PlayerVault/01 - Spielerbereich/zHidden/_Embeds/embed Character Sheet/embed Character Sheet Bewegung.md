@@ -1,0 +1,8 @@
+|                            |                                                                                                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Gehen                      | `$=(dv.current().Bewegung-dv.current().InputData.ErschöpfungsPunkte)*1.5` m (`$=dv.current().Bewegung-dv.current().InputData.ErschöpfungsPunkte` Kästchen)   |
+| [[Spurt]]                  | `$=(dv.current().Bewegung-dv.current().InputData.ErschöpfungsPunkte)*3` m (`$=(dv.current().Bewegung-dv.current().InputData.ErschöpfungsPunkte)*2` Kästchen) |
+| [[Hochsprung]] mit Anlauf  | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)` m                                                                                                  |
+| [[Hochsprung]] ohne Anlauf | `=round((floor(((this.Attribute.Stärke)-10)/2)+3)*0.3,2)/2` m                                                                                                |
+| [[Weitsprung]] mit Anlauf  | `=round((this.Attribute.Stärke*0.3),2)` m                                                                                                                    |
+| [[Weitsprung]] ohne Anlauf | `=round((this.Attribute.Stärke*0.3)/2,2)` m                                                                                                                  |

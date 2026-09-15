@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiClock",
+      "RaPotion",
+      "IbLightning",
+      "RaMonsterSkull",
+      "RaCloakAndDagger"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "debugMode": false,
+    "iconInTitlePosition": "above",
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
+  },
+  "_DnD_PFT/Monster Manual": "SiMonster",
+  "_DnD_PFT/Ausrüstung/Edelsteine": "LiGem",
+  "_DnD_PFT/Ausrüstung/Getränke": "TiGlassFull",
+  "_DnD_PFT/Ausrüstung/Speisen": "TiMeat",
+  "_DnD_PFT/GORN": "RaBladeBite",
+  "_DnD_PFT/Kampagne/Backup Charakter": "LiArchive",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Zaubersprüche.md": {
+    "iconName": "RaRuneStone",
+    "iconColor": "#258bb6"
+  },
+  "_Attachments": "LiImage",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Session Notes.md": {
+    "iconName": "LiBookLock",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/zEmbeds": "RaHiveEmblem",
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Ritualbuch.md": {
+    "iconName": "RaDragon",
+    "iconColor": "#258bb6"
+  },
+  "_DnD_PFT/Kampagne/GORN/Ar'go/Zauberer - PHB 2024.md": {
+    "iconName": "LiBookCopy",
+    "iconColor": "#258bb6"
+  },
+  "01 - Spielerbereich/Kampagne": "RaBladeBite",
+  "01 - Spielerbereich/Regeln": "RaPerspectiveDiceOne",
+  "02 - Spielleiterbereich/Bestiarium": "RaEyeMonster",
+  "02 - Spielleiterbereich/Kampagne": "CoMap",
+  "02 - Spielleiterbereich/Homebrew": "RaPotion",
+  "02 - Spielleiterbereich/Bestiarium/Bestiarium": "RaEyeMonster"
+}

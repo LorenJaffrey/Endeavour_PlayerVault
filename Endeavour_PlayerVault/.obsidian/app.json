@@ -1,0 +1,14 @@
+{
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_Attachments",
+  "showLineNumber": true,
+  "livePreview": false,
+  "showInlineTitle": false,
+  "newFileLocation": "current",
+  "spellcheck": true,
+  "spellcheckLanguages": null,
+  "legacyEditor": false,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "hidden"
+}

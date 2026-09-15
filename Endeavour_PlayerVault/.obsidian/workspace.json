@@ -1,0 +1,319 @@
+{
+  "main": {
+    "id": "de3599a26787adfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "74b2fee43fcec094",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbb8bd4c44c7fc83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Spielerbereich/Kampagne/Gruppe/Gruppe.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gruppe"
+            }
+          },
+          {
+            "id": "8fc3378435c6e9b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Spielerbereich/Merkmale/Merkmale.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Merkmale"
+            }
+          },
+          {
+            "id": "1ea115ec5059672b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Spielerbereich/Regeln/Kampf/Aktionen/Aktionen.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Aktionen"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75e3734c9bfa8ef3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e119d04df17595b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b95fee904e023541",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a3b70c5927efd642",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Regeln/PHB2024",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ca898514eeb8a95e",
+    "type": "split",
+    "children": [
+      {
+        "id": "99c27394762ac878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b54ac79f18fdcf0e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DM Bereich/Nimble/System/Regeln/Magie/Zaubersprüche/Zaubersprüche.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Zaubersprüche"
+            }
+          },
+          {
+            "id": "8d68fb55f7162ed7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_DnD_PFT/Charaktere/Herkunft/Herkunft.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Herkunft"
+            }
+          },
+          {
+            "id": "464eb4c226d6437a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0d44586aef761d5c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "592cb10bfad482b5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_DnD_PFT/Charaktere/Herkunft/Herkunft.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Herkunft"
+            }
+          },
+          {
+            "id": "6b2f32b59be3bbe1",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "3df8570ffe14357e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "cd52f7122366e245",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "01 - Spielerbereich/Merkmale/Merkmale.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 673.00390625
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:Create new canvas": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "alias-management:ListAliasesView": false,
+      "alias-management:DuplicateAliasesView": false,
+      "realclaudian:Open Claudian": false
+    }
+  },
+  "active": "cd52f7122366e245",
+  "lastOpenFiles": [
+    "01 - Spielerbereich/Kampagne/Timeline Kampagne.md",
+    "01 - Spielerbereich/Kampagne/Gesinnung Gruppe.md",
+    "01 - Spielerbereich/Kampagne/Gruppe/Gruppe.md",
+    "01 - Spielerbereich/Kampagne/Neue Kampagne Session 0.md",
+    "01 - Spielerbereich/Kampagne/Gruppe/Konzept Tobi.md",
+    "01 - Spielerbereich/Kampagne/Gruppe/Sancho.md",
+    "01 - Spielerbereich/Merkmale/Merkmale.md",
+    "01 - Spielerbereich/TODO.md",
+    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Behälter/Gürteltasche.md",
+    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Behälter/Gürteltasche.md.tmp.12002.4bc7c8ec7358",
+    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Ausrüstung/Trinkschlauch.md",
+    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Ausrüstung/Trinkschlauch.md.tmp.12002.06831332efa4",
+    "02 - Spielleiterbereich/Vorlagen/Ausrüstung/Vorlage Behälter.md.tmp.12002.ddd1bc88c7f7",
+    "02 - Spielleiterbereich/WIP/Wealth.md",
+    "02 - Spielleiterbereich/WIP/Variant Rules.md",
+    "02 - Spielleiterbereich/WIP/Glück.md",
+    "02 - Spielleiterbereich/WIP/Equipment Rules.md",
+    "02 - Spielleiterbereich/WIP/_Rasten/_Downtime.md",
+    "02 - Spielleiterbereich/WIP/_Kampf/_Spezielle Kampfbedingungen.md",
+    "01 - Spielerbereich/Regeln/Zustände/Belastet.md.tmp.19487.10400ec4340e",
+    "01 - Spielerbereich/Regeln/Zustände/Belastet.md",
+    "01 - Spielerbereich/Regeln/Inventar/Gegenstandsgrößen.md.tmp.19487.cc7aef73f066",
+    "01 - Spielerbereich/Regeln/Inventar/Schnellzugriff.md.tmp.19487.7fa4d0e511e3",
+    "01 - Spielerbereich/Regeln/Inventar/Gepäck.md.tmp.19487.42f064c87d75",
+    "01 - Spielerbereich/Regeln/Inventar/Inventar.md.tmp.19487.15bd1dfb539c",
+    "01 - Spielerbereich/Regeln/Kampf/Aktionen/Kramen.md",
+    "01 - Spielerbereich/Regeln/Inventar/Gegenstandsgrößen.md",
+    "01 - Spielerbereich/Regeln/Inventar/Schnellzugriff.md",
+    "01 - Spielerbereich/Regeln/Inventar/Gepäck.md",
+    "01 - Spielerbereich/Regeln/Inventar/Inventar.md",
+    "01 - Spielerbereich/Regeln/Inventar",
+    "02 - Spielleiterbereich/WIP/Inventar/Gepäck.md",
+    "02 - Spielleiterbereich/WIP/Inventar/Gegenstandsgrößen.md",
+    "02 - Spielleiterbereich/WIP/Inventar/Inventar.md",
+    "02 - Spielleiterbereich/WIP/Inventar/Belastung.md",
+    "02 - Spielleiterbereich/WIP/Inventar/Gepäck.md.tmp.19487.5ee4d7cf8a0e",
+    "01 - Spielerbereich/zHidden/_Attachments/Races/Tiefling 1.png",
+    "01 - Spielerbereich/zHidden/_Attachments/Races/Halbling.png",
+    "01 - Spielerbereich/zHidden/_Attachments/Races/Gnom.png",
+    "_Attachments/Half-Giant.png",
+    "_Attachments/Aasimar.png"
+  ]
+}
