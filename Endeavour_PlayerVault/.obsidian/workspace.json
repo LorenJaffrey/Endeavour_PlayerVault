@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Spielerbereich/Merkmale/Merkmale.md",
+                "file": "01 - Spielerbereich/Regeln/Inventar/Gegenstandsgrößen.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Merkmale"
+              "title": "Gegenstandsgrößen"
             }
           },
           {
@@ -222,8 +222,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-ghost",
+              "title": "DICE_ROLLER_VIEW"
             }
           },
           {
@@ -232,8 +232,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -242,10 +242,20 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "01 - Spielerbereich/Merkmale/Merkmale.md"
+                "file": "01 - Spielerbereich/Regeln/Inventar/Gegenstandsgrößen.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
+            }
+          },
+          {
+            "id": "f53c3aa389c02c65",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
             }
           }
         ],
@@ -268,48 +278,47 @@
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "alias-management:ListAliasesView": false,
-      "alias-management:DuplicateAliasesView": false,
-      "realclaudian:Open Claudian": false
+      "alias-management:DuplicateAliasesView": false
     }
   },
-  "active": "cd52f7122366e245",
+  "active": "8fc3378435c6e9b2",
   "lastOpenFiles": [
-    "01 - Spielerbereich/Kampagne/Timeline Kampagne.md",
-    "01 - Spielerbereich/Kampagne/Gesinnung Gruppe.md",
-    "01 - Spielerbereich/Kampagne/Gruppe/Gruppe.md",
-    "01 - Spielerbereich/Kampagne/Neue Kampagne Session 0.md",
-    "01 - Spielerbereich/Kampagne/Gruppe/Konzept Tobi.md",
-    "01 - Spielerbereich/Kampagne/Gruppe/Sancho.md",
-    "01 - Spielerbereich/Merkmale/Merkmale.md",
-    "01 - Spielerbereich/TODO.md",
-    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Behälter/Gürteltasche.md",
-    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Behälter/Gürteltasche.md.tmp.12002.4bc7c8ec7358",
-    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Ausrüstung/Trinkschlauch.md",
-    "02 - Spielleiterbereich/WIP/Gegenstände/Gegenstände/Ausrüstung/Trinkschlauch.md.tmp.12002.06831332efa4",
-    "02 - Spielleiterbereich/Vorlagen/Ausrüstung/Vorlage Behälter.md.tmp.12002.ddd1bc88c7f7",
-    "02 - Spielleiterbereich/WIP/Wealth.md",
-    "02 - Spielleiterbereich/WIP/Variant Rules.md",
-    "02 - Spielleiterbereich/WIP/Glück.md",
-    "02 - Spielleiterbereich/WIP/Equipment Rules.md",
-    "02 - Spielleiterbereich/WIP/_Rasten/_Downtime.md",
-    "02 - Spielleiterbereich/WIP/_Kampf/_Spezielle Kampfbedingungen.md",
-    "01 - Spielerbereich/Regeln/Zustände/Belastet.md.tmp.19487.10400ec4340e",
-    "01 - Spielerbereich/Regeln/Zustände/Belastet.md",
-    "01 - Spielerbereich/Regeln/Inventar/Gegenstandsgrößen.md.tmp.19487.cc7aef73f066",
-    "01 - Spielerbereich/Regeln/Inventar/Schnellzugriff.md.tmp.19487.7fa4d0e511e3",
-    "01 - Spielerbereich/Regeln/Inventar/Gepäck.md.tmp.19487.42f064c87d75",
-    "01 - Spielerbereich/Regeln/Inventar/Inventar.md.tmp.19487.15bd1dfb539c",
-    "01 - Spielerbereich/Regeln/Kampf/Aktionen/Kramen.md",
-    "01 - Spielerbereich/Regeln/Inventar/Gegenstandsgrößen.md",
-    "01 - Spielerbereich/Regeln/Inventar/Schnellzugriff.md",
-    "01 - Spielerbereich/Regeln/Inventar/Gepäck.md",
-    "01 - Spielerbereich/Regeln/Inventar/Inventar.md",
-    "01 - Spielerbereich/Regeln/Inventar",
-    "02 - Spielleiterbereich/WIP/Inventar/Gepäck.md",
-    "02 - Spielleiterbereich/WIP/Inventar/Gegenstandsgrößen.md",
-    "02 - Spielleiterbereich/WIP/Inventar/Inventar.md",
-    "02 - Spielleiterbereich/WIP/Inventar/Belastung.md",
-    "02 - Spielleiterbereich/WIP/Inventar/Gepäck.md.tmp.19487.5ee4d7cf8a0e",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Zweihändige Waffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Wurfwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Wuchtwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Stichwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Stangenwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Schwerter.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Schwere Waffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Schusswaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Schurkenwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Nahkampfwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Mönchswaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Leichte Waffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Kriegswaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Hiebwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Handelsliste.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Finesse Waffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Fernkampfwaffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Einhändige Waffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Einfache Waffen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Bögen.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten/Armbrüste.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffeneigenschaften/Wurfwaffe.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffeneigenschaften/Waffeneigenschaften.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffeneigenschaften/Vielseitig.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffeneigenschaften/Verschlucken.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffeneigenschaften/Unhandlich.md",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffenlisten",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffeneigenschaften",
+    "01 - Spielerbereich/Gegenstände/Waffen/Waffen",
+    "01 - Spielerbereich/Gegenstände/Rüstung/Rüstungslisten",
+    "01 - Spielerbereich/Gegenstände/Rüstung/Rüstungen",
+    "01 - Spielerbereich/Gegenstände/Nahrungsmittel/Speisen",
+    "01 - Spielerbereich/Gegenstände/Nahrungsmittel/Getränke",
+    "01 - Spielerbereich/Gegenstände/Waffen",
+    "01 - Spielerbereich/Gegenstände/Rüstung",
+    "01 - Spielerbereich/Gegenstände/Nahrungsmittel",
     "01 - Spielerbereich/zHidden/_Attachments/Races/Tiefling 1.png",
     "01 - Spielerbereich/zHidden/_Attachments/Races/Halbling.png",
     "01 - Spielerbereich/zHidden/_Attachments/Races/Gnom.png",
