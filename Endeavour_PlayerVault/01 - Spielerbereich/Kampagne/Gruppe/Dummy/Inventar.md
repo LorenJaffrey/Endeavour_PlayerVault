@@ -6,8 +6,7 @@ endeavour_inventory:
       items:
         - "[[Schaufel]]"
         - "[[Blendlaterne]]"
-        - name: Platzhalter Schwert
-          plaetze: 2
+        - "[[Kurzschwert]]"
         - name: Seltsamer Schlüssel
           plaetze: 1
     - container: "[[Gürteltasche]]"
@@ -18,8 +17,10 @@ endeavour_inventory:
 currency: { cp: 12, sp: 8, ep: 0, gp: 30, pp: 1 }
 ---
 
-Inventar zu [[Dummy]]. `Platzhalter Schwert` und `Seltsamer Schlüssel` sind bewusst als temporäre
-Gegenstände (`name`+`plaetze`, ohne eigene Vault-Seite) eingetragen — das deckt den entsprechenden
-Fallback-Pfad der App-Inventar-UI mit ab. Das Zelt (`Items/Zelt.md`) ist bewusst nicht vorplatziert,
-sondern nur über die Suche zu finden — es passt wegen `Plaetze: 4` ("Sehr Groß") nicht in den
-Rucksack (`MaxGroesse: Groß`), gut zum Live-Testen der Größenprüfung.
+Inventar zu [[Dummy]]. Alle Gegenstände außer `Seltsamer Schlüssel` sind reale Einträge aus dem
+zentralen `01 - Spielerbereich/Gegenstände/`-Ordner — `Seltsamer Schlüssel` bleibt
+bewusst als temporärer Gegenstand (`name`+`plaetze`, ohne eigene Vault-Seite) eingetragen, das deckt
+den entsprechenden Fallback-Pfad der App-Inventar-UI mit ab. Das Zelt
+(`Gegenstände/Ausrüstung/Zelt.md`) ist bewusst nicht vorplatziert, sondern nur über die Suche zu
+finden — es passt wegen `Plaetze: 4` ("Sehr Groß") nicht in den Rucksack (`MaxGroesse: Groß`), gut
+zum Live-Testen der Größenprüfung.

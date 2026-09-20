@@ -50,13 +50,10 @@ Spieler-Charakterbögen enthält. Lebt bewusst in einem eigenen Ordner (`Gruppe/
 zu ihm gehört:
 
 - **Sheet** — diese Datei (Grundwerte)
-- **Inventar** — [[Inventar]] (Ausrüstung + Währung, verlinkt über `Charakter: "[[Dummy]]"`)
+- **Inventar** — [[Inventar]] (Ausrüstung + Währung, verlinkt über `Charakter: "[[Dummy]]"`) — nutzt
+  reale Gegenstände aus dem zentralen `01 - Spielerbereich/Gegenstände/`-Ordner
 - **Zauber** — [[Spell Sheet]] (Zauberplätze + bekannte Zauber, gleiche Verlinkung), die
   einzelnen Zauberseiten selbst liegen unter `Spells/`
-
-`Rucksack (Groß)`, `Gürteltasche`, `Blendlaterne`, `Köcher`, `Schaufel` und `Zelt` (unter `Items/`)
-sind die realen, vom DM gelieferten Beispiel-Gegenstände (Tags `Gegenstand/Behälter`/
-`Gegenstand/Ausrüstung`, Felder `Kosten`/`Plaetze`/`MaxGroesse`/`Stapelgroesse`).
 
 `nimble_attributes`/`nimble_skills` sind die echten Werte nach den `Regeln/Nimble`-Attributen
 (Stärke/Beweglichkeit/Konstitution/Geschick/Instinkt/Verstand/Präsenz/Entschlossenheit) und
