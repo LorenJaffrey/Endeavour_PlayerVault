@@ -2,17 +2,19 @@
 Charakter: "[[Dummy]]"
 endeavour_inventory:
   containers:
-    - container: "[[Rucksack (Groß)]]"
+    - container: '[[Rucksack (Groß)]]'
       items:
-        - "[[Schaufel]]"
-        - "[[Blendlaterne]]"
-        - "[[Kurzschwert]]"
+        - '[[Schaufel]]'
+        - '[[Blendlaterne]]'
+        - '[[Kurzschwert]]'
         - name: Seltsamer Schlüssel
           plaetze: 1
-    - container: "[[Gürteltasche]]"
+        - link: '[[Fackel]]'
+          charges: 2
+    - container: '[[Gürteltasche]]'
       items:
-        - "[[Köcher]]"
-    - container: "[[Gürteltasche]]"
+        - '[[Köcher]]'
+    - container: '[[Gürteltasche]]'
       items: []
 currency: { cp: 12, sp: 8, ep: 0, gp: 30, pp: 1 }
 ---
