@@ -1,6 +1,13 @@
 ---
 type: character
 name: Dummy Charakter
+portrait: "[[Dummy Portrait.jpg]]"
+backstory: |
+  Erschaffen in einem längst verlassenen Alchemielabor — neugierig, gehorsam und erstaunlich zäh für
+  seine Größe. Ursprünglich nur gebaut, um Ausrüstung und Zaubersprüche zu testen, hat es inzwischen
+  ein gewisses Eigenleben entwickelt: Es sammelt glänzende Kleinteile, nickt Befehlen entschlossen zu,
+  bevor es sie erfüllt, und hält sich — allen Warnungen zum Trotz — für unverwundbar, solange sein
+  Laborkittel-Fetzen um den Hals hängt.
 class:
   - name: Prüfling
     level: 1
