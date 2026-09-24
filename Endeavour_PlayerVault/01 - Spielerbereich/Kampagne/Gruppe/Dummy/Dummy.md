@@ -40,8 +40,12 @@ nimble_skills:
 armor_class: 10
 speed: 30 ft
 hp:
-  current: 10
+  current: 6
   max: 10
+  temp: 5
+resilience:
+  current: 5
+  max: 5
 hit_dice:
   die: d8
   total: 1
@@ -65,9 +69,9 @@ hit_dice:
 
 ## ⚔️ Vitalwerte
 
-| 🛡️ RK | ❤️ Trefferpunkte | 🎲 Trefferwürfel | 🏃 Initiative | 👟 Tempo | ✦ Übungsbonus |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| **10** | **10 / 10** | 1W8 (1 übrig) | **+1** | 30 ft | **+2** |
+| 🛡️ RK | 💨 Ausweichwert | 🔥 Resilienzpunkte | ❤️ Trefferpunkte | 🎲 Trefferwürfel | 🏃 Initiative | 👟 Tempo |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **10** | **11** | **5 / 5** | **10 / 10** | 1W8 (1 übrig) | **+1** | 30 ft |
 
 *Erfahrung: 0 XP*
 

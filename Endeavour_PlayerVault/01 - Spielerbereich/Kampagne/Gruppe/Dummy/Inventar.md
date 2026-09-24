@@ -5,10 +5,12 @@ endeavour_inventory:
     - container: '[[Rucksack (Groß)]]'
       items:
         - '[[Schaufel]]'
-        - '[[Blendlaterne]]'
         - '[[Kurzschwert]]'
         - name: Seltsamer Schlüssel
           plaetze: 1
+        - link: '[[Fackel]]'
+          charges: 2
+        - '[[Blendlaterne]]'
         - link: '[[Fackel]]'
           charges: 2
     - container: '[[Gürteltasche]]'
@@ -16,7 +18,7 @@ endeavour_inventory:
         - '[[Köcher]]'
     - container: '[[Gürteltasche]]'
       items: []
-currency: { cp: 12, sp: 8, ep: 0, gp: 30, pp: 1 }
+currency: {cp: 12, sp: 24, ep: 0, gp: 15, pp: 4}
 ---
 
 Inventar zu [[Dummy]]. Alle Gegenstände außer `Seltsamer Schlüssel` sind reale Einträge aus dem
