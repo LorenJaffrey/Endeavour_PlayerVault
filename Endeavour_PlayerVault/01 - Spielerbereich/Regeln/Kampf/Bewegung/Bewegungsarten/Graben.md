@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Bewegung
+  - Regeln/Endeavour/Bewegung
 ---
 # `=this.file.name`
 Eine Kreatur die sich durch lockeres Erdreich, Sand oder ähnliches Material gräbt, halbiert ihre [[Bewegungsrate]], außer sie hat eine separate Bewegungsrate für [[Graben]].

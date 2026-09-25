@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden
+  - Regeln/Endeavour/Schaden
 ---
 # `=this.file.name`
 Wenn ein Charakter Schaden erleidet, wird dieser normalerweise in einer festen Reihenfolge auf seine Schutzpools angewendet:

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Bewegung
+  - Regeln/Endeavour/Bewegung
 ---
 # `=this.file.name`
 Eine Kreatur die auf dem Boden liegt kann [[Aufstehen]].

@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Zug/Aktion
 aliases:
   - Beeinflussen-Aktion

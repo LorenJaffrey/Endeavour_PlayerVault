@@ -1,7 +1,7 @@
 ---
 tags: 
   - Zug/Reaktion
-  - Regeln/Nimble
+  - Regeln/Endeavour
 aliases:
 Beschreibung: "Bonus auf [[Ausweichwert]] und [[Rettungswurf#Geschicklichkeitsrettungswurf|Geschicklichkeitsrettungswürfe]]"
 Kosten: "1 [[Aktionspunkte|AP]]"

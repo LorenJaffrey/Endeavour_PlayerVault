@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Reisen
+  - Regeln/Endeavour/Reisen
 ---
 # `=this.file.name`
 Eine Navigationsprobe ist nur nötig, wenn die Route unklar ist.

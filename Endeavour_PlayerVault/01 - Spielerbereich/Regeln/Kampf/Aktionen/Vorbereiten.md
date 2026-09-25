@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Zug/Aktion
 Beschreibung: "Bereite eine [[Aktionen|Aktion]] für einen späteren Zeitpunkt vor."
 Kosten: "1 [[Aktionspunkte|AP]]"

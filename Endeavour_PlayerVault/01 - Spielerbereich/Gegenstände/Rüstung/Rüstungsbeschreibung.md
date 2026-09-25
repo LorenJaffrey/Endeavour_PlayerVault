@@ -16,9 +16,9 @@ Sie dient nur der Einordnung in die Rüstungslisten.
 - Stärke um die Rüstung oder den Schild ohne Abzüge zu nutzen.
 - Wenn unterhalb des angegebenen Wertes erhältst du einen Abzug in Höhe der Differenz auf [[Attribute#Attributswurf|Attributswürfe]], [[Stärkerettungswürfe|ST-Rettungswürfe]] und [[Beweglichkeitsrettungswürfe|BW-Rettungswürfe]], sowie [[Angriffswurf|Angriffswürfe]], auch auf [[Zauberangriffswurf|Zauberangriffswürfe]].
 
-## BW_cap
+## Max BW
 Begrenzt den [[Beweglichkeit|Beweglichkeitsbonus]] auf den [[Ausweichwert]].
-Ist der [[Beweglichkeit|BW]]-Wert einer Kreatur höher als der BW_cap der getragenen Rüstung, wird für den [[Ausweichwert]] nur der BW_cap Wert verwendet.
+Ist der [[Beweglichkeit|BW]]-Wert einer Kreatur höher als der Max [[Beweglichkeit|BW]] Wert der getragenen Rüstung, wird für den [[Ausweichwert]] nur der Max [[Beweglichkeit|BW]] Wert verwendet.
 Fehlt das Feld bei einer Rüstung, gibt es keine Begrenzung.
 Details dazu stehen in [[Ausweichwert]].
 

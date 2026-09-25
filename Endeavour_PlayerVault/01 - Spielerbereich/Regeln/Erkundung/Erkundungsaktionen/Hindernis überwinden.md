@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Erkundung/Aktion
 Beschreibung: "Überwinde ein Schloss, eine Falle, ein blockiertes Hindernis o.ä."
 ---

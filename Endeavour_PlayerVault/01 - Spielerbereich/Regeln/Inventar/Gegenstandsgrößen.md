@@ -1,7 +1,7 @@
 ---
 tags:
-  - Regeln/Nimble
-  - Regeln/Nimble/Inventar
+  - Regeln/Endeavour
+  - Regeln/Endeavour/Inventar
 aliases:
   - Gegenstandsgröße
 ---
@@ -28,7 +28,10 @@ Sie gibt einen Platz-Zuschlag, unabhängig von der Größe.
 
 ## Stapelbare Kleinstitems
 Manche Gegenstände sind so klein, dass sie explizit in Stapeln gezählt werden, statt einzeln 1 Platz zu belegen.
-  - Münzen: 200 Stück pro Platz
+Ihre Stapelgröße gibt an wie viele Stück sich zusammen einen Platz teilen.
+  - Münzen: Stapelgröße 200
+  - Fackeln: Stapelgröße 4
+  - Kletterhaken: Stapelgröße 5
   - Pfeile, Armbrustbolzen: kein Platz nötig, siehe Tipp zur Munition unten
 
 > [!tip]- Über Munition  

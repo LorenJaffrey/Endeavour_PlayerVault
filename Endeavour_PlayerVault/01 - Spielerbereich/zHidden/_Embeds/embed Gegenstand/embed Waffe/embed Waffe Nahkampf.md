@@ -1,7 +1,6 @@
 ```dynamic-embed
 [[embed Angriff Nahkampf]]
 ```
-
-| Waffe             | Hände         | Größe         |         Gewicht |         Kosten | Kategorie         | Verfügbarkeit         |
-| ----------------- | ------------- | ------------- | ---------------:| --------------:| ----------------- | --------------------- |
-| `=this.file.name` | `=this.Hände` | `=this.Größe` | `=this.Gewicht` | `=this.Kosten` | `=this.Kategorie` | `=this.Verfügbarkeit` |
+| Waffe             | Hände         | Größe         |         Plätze |         Stapelgröße |         Kosten | Verfügbarkeit         |
+| ----------------- | ------------- | ------------- | ---------------:| --------------------:| --------------:| --------------------- |
+| `=this.file.name` | `=this.Hände` | `=this.Größe` | `=this.Plaetze` | `=this.Stapelgroesse` | `=this.Kosten` | `=this.Verfügbarkeit` |

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Bewegung
+  - Regeln/Endeavour/Bewegung
 ---
 # `=this.file.name`
 Eine Kreatur die [[Schweben]] kann, kann in der Luft an Ort und Stelle verharren, auch wenn ihre [[Bewegungsrate]] auf 0 sinkt oder sie bewegungsunfähig wird.

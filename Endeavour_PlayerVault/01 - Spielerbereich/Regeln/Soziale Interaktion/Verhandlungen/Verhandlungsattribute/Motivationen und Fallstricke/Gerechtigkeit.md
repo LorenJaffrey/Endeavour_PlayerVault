@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Ein NSC mit der [[Motivationen|Motivation]] [[Gerechtigkeit]] möchte, dass die Rechtschaffenen belohnt und die Bösen bestraft werden – wobei seine Vorstellung von Gut und Böse subjektiv sein kann. 

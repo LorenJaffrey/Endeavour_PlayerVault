@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
 ---
 # `=this.file.name`
 Nachdem sie einen [[Auffällige Bereiche|auffälligen Bereich]] durchsucht haben, können die Spieler versuchen die Hinweise zu analysieren, die durch den Wurf auf [[Wahrnehmung]] entdeckt wurden.

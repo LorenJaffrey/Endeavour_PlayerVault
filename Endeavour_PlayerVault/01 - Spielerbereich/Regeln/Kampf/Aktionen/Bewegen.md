@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Zug/Aktion
 Beschreibung: "Bewege dich um deine [[Bewegungsrate]]."
 Kosten: "1 [[Aktionspunkte|AP]]"

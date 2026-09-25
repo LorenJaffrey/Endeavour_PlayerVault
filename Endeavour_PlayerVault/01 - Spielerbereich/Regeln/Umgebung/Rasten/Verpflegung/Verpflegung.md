@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Verpflegung
+  - Regeln/Endeavour/Rasten/Verpflegung
 ---
 # `=this.file.name`
 Charaktere, die nicht essen und trinken, erleiden die Auswirkungen von [[Erschöpfung]]. 

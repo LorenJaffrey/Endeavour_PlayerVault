@@ -6,7 +6,7 @@ aliases:
   - BW
   - BEW
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
 ---
 # `=this.file.name`

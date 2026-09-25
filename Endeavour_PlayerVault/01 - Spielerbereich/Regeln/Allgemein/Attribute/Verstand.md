@@ -6,7 +6,7 @@ aliases:
   - VS
   - VER
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Misst die geistige Schärfe, Präzision der Erinnerung, logisches Denken.
 ---
 # `=this.file.name`

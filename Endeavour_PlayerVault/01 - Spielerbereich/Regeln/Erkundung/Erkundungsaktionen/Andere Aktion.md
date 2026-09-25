@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Erkundung/Aktion
 Beschreibung: "Eine Handlung, die keiner anderen Erkundungsaktion entspricht."
 ---

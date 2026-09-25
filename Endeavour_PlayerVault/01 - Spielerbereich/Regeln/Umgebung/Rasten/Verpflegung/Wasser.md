@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Verpflegung
+  - Regeln/Endeavour/Rasten/Verpflegung
 ---
 # `=this.file.name`
 [[Wasser]] wird in der Mengeneinheit [[Trinkschlauch\|Trinkschläuche]] verwaltet. 

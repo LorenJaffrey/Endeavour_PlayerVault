@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Das [[Interesse]] eines NSC gibt an, wie sehr er bereit ist, einen Deal mit den Helden einzugehen. 

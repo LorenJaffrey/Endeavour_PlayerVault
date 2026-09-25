@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Verpflegung
+  - Regeln/Endeavour/Rasten/Verpflegung
 ---
 # `=this.file.name`
 [[Nahrung]] wird in der Mengeneinheit [[Ration]] verwaltet. 

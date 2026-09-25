@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden/Schadensart/Elementar
+  - Regeln/Endeavour/Schaden/Schadensart/Elementar
 ---
 # `=this.file.name`
 [[Elementarschaden]] ist Schaden, der durch natürliche oder stoffliche Kräfte wie Feuer, Kälte, Blitz, Säure oder Gift entsteht.

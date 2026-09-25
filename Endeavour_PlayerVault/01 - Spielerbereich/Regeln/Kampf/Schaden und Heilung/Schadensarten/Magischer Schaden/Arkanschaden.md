@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden/Schadensart/Magisch
+  - Regeln/Endeavour/Schaden/Schadensart/Magisch
 Kategorie: "[[Magischer Schaden]]"
 ---
 # `=this.file.name`

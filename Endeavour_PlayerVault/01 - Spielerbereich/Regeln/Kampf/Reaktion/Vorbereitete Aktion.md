@@ -1,7 +1,7 @@
 ---
 tags:
   - Zug/Reaktion
-  - Regeln/Nimble
+  - Regeln/Endeavour
 Beschreibung: "Eine vorbereitete [[Aktion]] ausführen."
 Kosten: "1 [[Aktionspunkte|AP]]"
 Voraussetzung: "Zuvor mit [[Vorbereiten]] eine Aktion vorbereitet"

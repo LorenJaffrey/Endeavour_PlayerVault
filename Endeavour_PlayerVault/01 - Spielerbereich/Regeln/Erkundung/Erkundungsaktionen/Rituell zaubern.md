@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Erkundung/Aktion
 Beschreibung: "Wirke einen Zauber als Ritual."
 ---

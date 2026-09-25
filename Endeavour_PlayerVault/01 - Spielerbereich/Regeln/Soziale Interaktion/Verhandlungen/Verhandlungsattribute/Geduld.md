@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Die Geduld eines NSC gibt an, wie viel Zeit und Mühe er bereit ist, in eine [[Verhandlungen|Verhandlung]] zu investieren. 

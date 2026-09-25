@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Hat ein NSC nach einem Angebot noch [[Geduld]] übrig und liegt sein [[Interesse]] zwischen 1 und 4, können die Helden ein weiteres Argument vorbringen, um den Deal zu verbessern. Alternativ können sie das Angebot annehmen und die [[Verhandlungen|Verhandlung]] beenden. Diese Entscheidung liegt bei den Spielern. Der Spielleiter kann eine verbleibende [[Geduld]] andeuten, indem der NSC fragt: „Gibt es sonst noch etwas?"

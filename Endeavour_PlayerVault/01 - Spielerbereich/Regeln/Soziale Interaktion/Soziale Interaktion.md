@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Sozial
+  - Regeln/Endeavour/Sozial
 ---
 # `=this.file.name`
 Soziale Interaktion mit NSCs läuft in den meisten Fällen über eine einzelne passende Fertigkeitsprobe (eine [[Beeinflussen|Beeinflussen-Aktion]] mit [[Überzeugung]], [[Täuschung]], [[Einschüchterung]] oder [[Auftreten]]).

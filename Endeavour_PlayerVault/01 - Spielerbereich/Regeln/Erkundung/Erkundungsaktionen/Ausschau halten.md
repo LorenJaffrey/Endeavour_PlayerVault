@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Erkundung/Aktion
 Beschreibung: "Achte konzentriert auf deine Umgebung."
 ---

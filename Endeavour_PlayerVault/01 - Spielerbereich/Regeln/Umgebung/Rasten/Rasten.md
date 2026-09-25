@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten
+  - Regeln/Endeavour/Rasten
 aliases:
   - Rast
 ---

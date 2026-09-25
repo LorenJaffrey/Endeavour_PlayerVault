@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 aliases:
   - Angebot
 ---

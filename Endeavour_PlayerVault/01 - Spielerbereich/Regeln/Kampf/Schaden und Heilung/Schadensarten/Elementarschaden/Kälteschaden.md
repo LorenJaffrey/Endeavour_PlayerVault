@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden/Schadensart/Elementar
+  - Regeln/Endeavour/Schaden/Schadensart/Elementar
 Kategorie: "[[Elementarschaden]]"
 ---
 # `=this.file.name`

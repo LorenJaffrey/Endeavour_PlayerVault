@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Rastaktionen/Rastaktion
+  - Regeln/Endeavour/Rasten/Rastaktionen/Rastaktion
 Beschreibung: "Der Charakter behandelt die Verletzungen seiner Gefährten, reinigt Wunden und legt Verbände an."
 ---
 # `=this.file.name`

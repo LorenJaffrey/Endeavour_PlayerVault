@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Bewegung
+  - Regeln/Endeavour/Bewegung
 ---
 # `=this.file.name`
 Eine Kreatur kann nur [[Fliegen]] wenn sie eine separate [[Bewegungsrate]] dafür hat.

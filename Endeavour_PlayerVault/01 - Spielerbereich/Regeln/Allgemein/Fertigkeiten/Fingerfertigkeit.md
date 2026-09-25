@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Fertigkeit/Geschick
+  - Regeln/Endeavour/Fertigkeit/Geschick
 Attribut: "[[Geschick]]"
 ---
 # `=this.file.name`

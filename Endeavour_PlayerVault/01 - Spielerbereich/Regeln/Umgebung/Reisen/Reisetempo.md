@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Reisen
+  - Regeln/Endeavour/Reisen
 ---
 # `=this.file.name`
 Zu Beginn jedes Reiseabschnitts wählt die Gruppe ein [[Reisetempo]]:

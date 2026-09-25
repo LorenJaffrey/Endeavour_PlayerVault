@@ -1,7 +1,7 @@
 ---
 tags: 
   - Zug/Aktion
-  - Regeln/Nimble/WIP
+  - Regeln/Endeavour/WIP
 aliases: 
   - Zaubern
   - magische Aktion

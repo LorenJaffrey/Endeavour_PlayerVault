@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rettungswurf
+  - Regeln/Endeavour/Rettungswurf
 aliases:
   - Stärkerettungswurf
   - ST-Rettungswurf

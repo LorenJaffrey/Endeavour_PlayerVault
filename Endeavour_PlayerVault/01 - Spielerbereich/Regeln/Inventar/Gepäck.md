@@ -1,7 +1,7 @@
 ---
 tags:
-  - Regeln/Nimble
-  - Regeln/Nimble/Inventar
+  - Regeln/Endeavour
+  - Regeln/Endeavour/Inventar
 ---
 # `=this.file.name`
 Ein Charakter trägt normalerweise ein einzelnes großes Gepäckstück mit sich herum, um Gegenstände zu transportieren und zu verstauen.

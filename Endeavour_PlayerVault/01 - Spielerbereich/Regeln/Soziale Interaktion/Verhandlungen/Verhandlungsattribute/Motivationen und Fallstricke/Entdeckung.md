@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`  
 Ein NSC mit der [[Motivationen|Motivation]] [[Entdeckung]] möchte neues Wissen erlangen, vergessene Orte erkunden, bahnbrechende Experimente durchführen oder verlorene Artefakte wiederfinden. 

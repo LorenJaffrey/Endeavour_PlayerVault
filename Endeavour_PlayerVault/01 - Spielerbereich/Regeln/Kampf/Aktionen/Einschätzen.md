@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Zug/Aktion
 Beschreibung: "Mach eine [[Instinkt|IN]]-basierte Probe um etwas zu entdecken."
 Kosten: "1 [[Aktionspunkte|AP]]"

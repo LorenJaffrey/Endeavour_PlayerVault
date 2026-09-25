@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
 ---
 # `=this.file.name`
 *Versuche einen Gegner bewusstlos zu schlagen, statt ihn zu töten.*

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Kampf
+  - Regeln/Endeavour/Kampf
 aliases:
   - Reaktionen
 ---

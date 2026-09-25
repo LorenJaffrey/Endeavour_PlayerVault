@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Rast/kurz
+  - Regeln/Endeavour/Rasten/Rast/kurz
 aliases:
 Dauer: kurz
 ---

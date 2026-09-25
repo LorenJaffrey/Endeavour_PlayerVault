@@ -1,7 +1,7 @@
 ---
 tags: 
   - Zug/Reaktion
-  - Regeln/Nimble
+  - Regeln/Endeavour
 Beschreibung: "Einem Verbündeten [[Vorteil und Nachteil|Vorteil]] gewähren."
 Kosten: "1 [[Aktionspunkte|AP]]"
 Voraussetzung: "Plausible Erklärung für die Hilfe"

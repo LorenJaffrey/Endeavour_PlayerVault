@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Ein NSC mit der [[Motivationen|Motivation]] [[Höhere Autorität]] ist einer Person oder Macht treu ergeben, die er als bedeutender als sich selbst ansieht. 

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Reisen
+  - Regeln/Endeavour/Reisen
 ---
 # `=this.file.name`
 Reisen zwischen wichtigen Orten wird als **Pointcrawl** abgehandelt. 

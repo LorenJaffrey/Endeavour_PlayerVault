@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Zug/Aktion
 Beschreibung: "Versuche dich zu verstecken."
 Kosten: "1 [[Aktionspunkte|AP]]"

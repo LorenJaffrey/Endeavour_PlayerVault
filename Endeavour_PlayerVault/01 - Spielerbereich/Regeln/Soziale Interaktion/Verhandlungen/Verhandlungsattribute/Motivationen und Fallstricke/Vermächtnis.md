@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Ein NSC mit der [[Motivationen|Motivation]] [[Vermächtnis]] strebt nach Ruhm zu Lebzeiten und nach Anerkennung, die über seinen Tod hinaus anhält. 

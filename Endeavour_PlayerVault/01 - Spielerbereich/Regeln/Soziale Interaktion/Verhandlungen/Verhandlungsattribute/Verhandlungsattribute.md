@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Während einer [[Verhandlungen|Verhandlung]] weist der Spielleiter NSCs folgende temporäre Werte und Eigenschaften zu:

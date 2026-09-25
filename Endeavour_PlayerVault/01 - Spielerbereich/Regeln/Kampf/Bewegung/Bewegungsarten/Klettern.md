@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Bewegung
+  - Regeln/Endeavour/Bewegung
 ---
 # `=this.file.name`
 Eine Kreatur die klettert halbiert ihre [[Bewegungsrate]], außer es gibt eine separate [[Bewegungsrate]] für Klettern.

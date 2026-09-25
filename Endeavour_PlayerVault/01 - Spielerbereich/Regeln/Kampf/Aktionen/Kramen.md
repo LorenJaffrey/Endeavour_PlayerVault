@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
   - Zug/Aktion
 Beschreibung: "Einen Gegenstand aus dem Gepäck hervorholen."
 Kosten: "2 [[Aktionspunkte|AP]]"

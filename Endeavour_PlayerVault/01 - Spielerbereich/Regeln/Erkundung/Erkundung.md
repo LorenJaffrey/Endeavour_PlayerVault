@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
 ---
 # `=this.file.name`
 Die Erkundung eines Ortes läuft auf zwei Ebenen ab. 

@@ -3,7 +3,7 @@ aliases:
   - Gelegenheitsangriffe
 tags: 
   - Zug/Reaktion
-  - Regeln/Nimble
+  - Regeln/Endeavour
 Beschreibung: "Einen Feind angreifen der deine Reichweite verlässt."
 Kosten: "1 [[Aktionspunkte|AP]]"
 Voraussetzung: "[[Nahkampfangriff]] oder [[Waffenloser Angriff]] verfügbar"

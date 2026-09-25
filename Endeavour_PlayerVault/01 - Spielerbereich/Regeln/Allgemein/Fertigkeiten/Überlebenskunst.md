@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Fertigkeit/Instinkt
+  - Regeln/Endeavour/Fertigkeit/Instinkt
 Attribut: "[[Instinkt]]"
 ---
 # `=this.file.name`

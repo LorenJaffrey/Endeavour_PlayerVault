@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`  
 Ein NSC mit der [[Motivationen|Motivation]] [[Ausgelassenheit]] will einfach Spaß haben. Er genießt gesellige Treffen, Nervenkitzel oder andere hedonistische Aktivitäten. 

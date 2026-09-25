@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Rast/lang
+  - Regeln/Endeavour/Rasten/Rast/lang
 aliases: 
   - Feldrasten
 Dauer: lang

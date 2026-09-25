@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
 ---
 # `=this.file.name`
 Ein W20-Wurf der unter dem zu erreichenden [[Schwierigkeitsgrad]] liegt wird als [[Misserfolg]] gewertet.

@@ -6,7 +6,7 @@ aliases:
   - GE
   - GES
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Steht für präzise Handarbeit, saubere Waffenführung und kontrollierte, genaue Bewegungen.
 ---
 # `=this.file.name`

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
 ---
 # `=this.file.name`
 Ein Raum oder ein Objekt kann nur dann erneut untersucht werden kann, wenn:

@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Ein NSC mit der [[Motivationen|Motivation]] [[Wohltätigkeit]] glaubt daran, das, was er hat, mit anderen zu teilen.

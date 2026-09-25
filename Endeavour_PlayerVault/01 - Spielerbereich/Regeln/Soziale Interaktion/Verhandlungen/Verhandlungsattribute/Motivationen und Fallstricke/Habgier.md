@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`
 Ein NSC mit der [[Motivationen|Motivation]] [[Habgier]] strebt nach Reichtum und Ressourcen über fast alles andere hinaus. 

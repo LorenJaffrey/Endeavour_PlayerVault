@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble
+  - Regeln/Endeavour
 ---
 # `=this.file.name`
 Die [[Bewegungsrate]] einer Kreatur gibt an wie weit sie sich im Kampf bewegen kann.

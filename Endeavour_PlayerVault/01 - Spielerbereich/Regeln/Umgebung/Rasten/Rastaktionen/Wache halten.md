@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Rastaktionen/Rastaktion
+  - Regeln/Endeavour/Rasten/Rastaktionen/Rastaktion
 Beschreibung: "Der Charakter hält Ausschau, schützt die Gruppe und reagiert auf Gefahren."
 ---
 # `=this.file.name`

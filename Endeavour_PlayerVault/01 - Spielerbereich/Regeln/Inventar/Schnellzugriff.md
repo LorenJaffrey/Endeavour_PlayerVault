@@ -1,7 +1,7 @@
 ---
 tags:
-  - Regeln/Nimble
-  - Regeln/Nimble/Inventar
+  - Regeln/Endeavour
+  - Regeln/Endeavour/Inventar
 ---
 # `=this.file.name`
 Ein Charakter führt meist kleinere Taschen an seiner Kleidung oder Ausrüstung um wichtige Gegenstände sofort im Zugriff zu haben.

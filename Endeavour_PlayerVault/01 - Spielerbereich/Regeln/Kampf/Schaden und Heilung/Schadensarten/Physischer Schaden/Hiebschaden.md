@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden/Schadensart/Physisch
+  - Regeln/Endeavour/Schaden/Schadensart/Physisch
 Kategorie: "[[Physischer Schaden]]"
 ---
 # `=this.file.name`

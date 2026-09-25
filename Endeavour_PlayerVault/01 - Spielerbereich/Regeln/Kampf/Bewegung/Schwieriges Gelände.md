@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Bewegung
+  - Regeln/Endeavour/Bewegung
 ---
 # `=this.file.name`
 In [[Schwieriges Gelände|Schwierigem Gelände]] wird die [[Bewegungsrate]] halbiert.

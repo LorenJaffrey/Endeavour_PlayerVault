@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden/Schadensart/Physisch
+  - Regeln/Endeavour/Schaden/Schadensart/Physisch
 ---
 # `=this.file.name`
 [[Physischer Schaden]] ist Schaden, der direkt auf den Körper eines Ziels einwirkt und durch Waffen, Stöße, Schnitte, Einstiche, Aufprall oder andere körperliche Einwirkungen verursacht wird. 

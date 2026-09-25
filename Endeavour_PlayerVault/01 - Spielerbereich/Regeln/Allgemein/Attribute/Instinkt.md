@@ -5,7 +5,7 @@ aliases:
   - IN
   - INS
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Beschreibt Wahrnehmung, Bauchgefühl und das Erkennen von Gefahr, Spuren oder versteckten Details.
 ---
 # `=this.file.name`

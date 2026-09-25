@@ -6,7 +6,7 @@ aliases:
   - PR
   - PRÄ
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Misst die Fähigkeit effektiv mit anderen zu agieren. Dazu gehören Faktoren wie Selbstvertrauen und Beredsamkeit.
 ---
 # `=this.file.name`

@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Schaden
+  - Regeln/Endeavour/Schaden
 aliases:
   - Schadenswürfe
 ---

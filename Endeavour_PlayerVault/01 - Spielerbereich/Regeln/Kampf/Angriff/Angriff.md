@@ -2,7 +2,7 @@
 aliases: 
   - Angriffe
 tags:
-  - Regeln/Nimble/Kampf
+  - Regeln/Endeavour/Kampf
 ---
 # `=this.file.name`
 Ob du mit einer [[Nahkampfwaffen|Nahkampfwaffe]] zuschlägst, eine [[Fernkampfwaffen|Fernkampfwaffe]] abfeuerst oder im Rahmen eines Zaubers einen [[Angriffswurf]] ausführst - ein [[Angriff]] hat die folgende Struktur:

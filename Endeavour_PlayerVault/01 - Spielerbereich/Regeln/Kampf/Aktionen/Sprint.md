@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/WIP
+  - Regeln/Endeavour/WIP
   - Zug/Aktion
 aliases:
 Beschreibung: "Bewege dich um das Doppelte deiner [[Bewegungsrate]]."

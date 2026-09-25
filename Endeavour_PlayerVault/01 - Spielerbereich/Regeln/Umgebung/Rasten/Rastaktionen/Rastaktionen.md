@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Rasten/Rastaktionen
+  - Regeln/Endeavour/Rasten/Rastaktionen
 aliases:
   - Rastaktion
 ---

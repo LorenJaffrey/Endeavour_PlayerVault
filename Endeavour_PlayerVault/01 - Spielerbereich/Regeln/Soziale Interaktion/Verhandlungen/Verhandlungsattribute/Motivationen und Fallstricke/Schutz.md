@@ -1,6 +1,6 @@
 ---
 tags: 
-  - Regeln/Nimble/Sozial/Verhandlung
+  - Regeln/Endeavour/Sozial/Verhandlung
 ---
 # `=this.file.name`  
 Ein NSC mit der [[Motivationen|Motivation]] [[Schutz]] hat Land, Menschen, Informationen, Gegenstände oder eine Organisation, die er um jeden Preis bewahren will. 

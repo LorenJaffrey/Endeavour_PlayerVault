@@ -7,7 +7,7 @@ aliases:
   - ST
   - STR
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Misst die körperliche Kraft, das athletische Training und das Maß in dem du rohe Gewalt ausüben kannst.
 ---
 # `=this.file.name`

@@ -1,7 +1,7 @@
 ---
 tags: 
   - Zug/Reaktion
-  - Regeln/Nimble
+  - Regeln/Endeavour
 Beschreibung: "Erfordert [[Schilde|Schild]]. Erhöht [[Rüstungsklasse]]."
 Kosten: "1 [[Aktionspunkte|AP]]"
 Voraussetzung: "[[Schilde|Schild]]"

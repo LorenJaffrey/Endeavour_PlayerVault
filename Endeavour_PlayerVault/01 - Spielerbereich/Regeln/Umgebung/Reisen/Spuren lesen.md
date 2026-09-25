@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Reisen
+  - Regeln/Endeavour/Reisen
 ---
 # `=this.file.name`
 Abenteurer wählen manchmal ihren Weg, indem sie den Spuren anderer Kreaturen folgen - oder andere Kreaturen könnten die Abenteurer verfolgen! 

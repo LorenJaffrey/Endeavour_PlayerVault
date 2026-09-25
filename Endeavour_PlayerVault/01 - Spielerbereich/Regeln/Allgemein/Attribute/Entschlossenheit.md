@@ -5,7 +5,7 @@ aliases:
   - EN
   - ENT
 tags:
-  - Regeln/Nimble/Attribut
+  - Regeln/Endeavour/Attribut
 Beschreibung: Misst mentale Standhaftigkeit, Fokus und die Fähigkeit, Druck, Furcht oder Versuchungen zu widerstehen.
 ---
 # `=this.file.name`

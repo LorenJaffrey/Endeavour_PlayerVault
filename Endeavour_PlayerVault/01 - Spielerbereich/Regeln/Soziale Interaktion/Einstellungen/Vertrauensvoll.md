@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Sozial/Einstellung
+  - Regeln/Endeavour/Sozial/Einstellung
 aliases:
   - vertrauensvolle
 Interesse: 3

@@ -40,9 +40,9 @@ nimble_skills:
 armor_class: 10
 speed: 30 ft
 hp:
-  current: 6
+  current: 10
   max: 10
-  temp: 5
+  temp: 10
 resilience:
   current: 5
   max: 5
@@ -50,6 +50,8 @@ hit_dice:
   die: d8
   total: 1
   used: 0
+conditions:
+  exhaustion: 5
 ---
 
 ![[Dummy Portrait.jpg]]

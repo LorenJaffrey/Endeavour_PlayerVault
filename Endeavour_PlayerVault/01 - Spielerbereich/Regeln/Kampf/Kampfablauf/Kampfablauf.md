@@ -1,6 +1,6 @@
 ---
 tags:
-  - Regeln/Nimble/Kampf
+  - Regeln/Endeavour/Kampf
 ---
 # `=this.file.name`
 Ein Kampf beginnt, wenn der SL ruft: „[[Initiative]] würfeln!“.
