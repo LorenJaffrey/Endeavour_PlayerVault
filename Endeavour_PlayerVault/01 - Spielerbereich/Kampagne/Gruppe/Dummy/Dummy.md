@@ -38,6 +38,7 @@ nimble_skills:
   perception: 2
   persuasion: 1
 armor_class: 10
+armor: "[[Lederrüstung]]"
 speed: 30 ft
 hp:
   current: 10
@@ -46,10 +47,6 @@ hp:
 resilience:
   current: 5
   max: 5
-hit_dice:
-  die: d8
-  total: 1
-  used: 0
 conditions:
   exhaustion: 5
 ---
@@ -71,9 +68,9 @@ conditions:
 
 ## ⚔️ Vitalwerte
 
-| 🛡️ RK | 💨 Ausweichwert | 🔥 Resilienzpunkte | ❤️ Trefferpunkte | 🎲 Trefferwürfel | 🏃 Initiative | 👟 Tempo |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **10** | **11** | **5 / 5** | **10 / 10** | 1W8 (1 übrig) | **+1** | 30 ft |
+| 🛡️ RK | 💨 Ausweichwert | 🔥 Resilienzpunkte | ❤️ Trefferpunkte | 🏃 Initiative | 👟 Tempo |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **10** | **11** | **5 / 5** | **10 / 10** | **+1** | 30 ft |
 
 *Erfahrung: 0 XP*
 
@@ -122,6 +119,7 @@ conditions:
 
 ## 🎒 Ausrüstung & Zauber
 
+- **Rüstung** — [[Lederrüstung]] (Max BW 4 — begrenzt den Ausweichwert erst ab BW +5)
 - **Inventar** — [[Inventar]] (Rucksack, Gürteltaschen, Münzen)
 - **Zauber** — [[Spell Sheet]] (Zauberplätze + bekannte Zauber: [[Platzhalterfunke]], [[Platzhalterschild]])
 
@@ -139,3 +137,8 @@ conditions:
 > zusätzlich als interne Brücke stehen (10+2×Attributswert, hier überall 12 ↔ Nimble-Wert 1), damit
 > Rüstungsklasse/Initiative/Zauber-SG — die noch nicht auf Nimble umgestellt sind — weiterhin
 > plausible Zahlen liefern; sie wird auf dem Bogen selbst nicht mehr angezeigt.
+>
+> `armor` verlinkt die getragene Rüstung — die App liest deren Max BW (`BW_cap`) für den
+> Ausweichwert. Trefferwürfel gibt es nicht mehr: sobald eine Klassennotiz (`Prüfling.md`)
+> `TP_pro_Stufe` / `RP_pro_Stufe` angibt, berechnet die App `hp.max` / `resilience.max` selbst
+> (Klasse + Subklasse + KO bzw. EN/2 pro Stufe); bis dahin gelten die Werte oben.
