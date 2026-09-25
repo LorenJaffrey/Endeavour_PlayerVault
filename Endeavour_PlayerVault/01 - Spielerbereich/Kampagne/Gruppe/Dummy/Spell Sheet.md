@@ -3,7 +3,9 @@ Charakter: "[[Dummy]]"
 spellcasting:
   ability: int
   slots:
-    "1": { max: 2, used: 0 }
+    1:
+      max: 3
+      used: 1
 spells_known:
   - "[[Platzhalterfunke]]"
   - "[[Platzhalterschild]]"

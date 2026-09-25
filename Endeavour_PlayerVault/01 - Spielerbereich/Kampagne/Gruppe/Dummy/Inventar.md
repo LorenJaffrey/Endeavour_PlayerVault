@@ -10,8 +10,6 @@ endeavour_inventory:
         - link: '[[Fackel]]'
           charges: 2
         - '[[Blendlaterne]]'
-        - link: '[[Fackel]]'
-          charges: 2
     - container: '[[Gürteltasche]]'
       items:
         - '[[Köcher]]'
