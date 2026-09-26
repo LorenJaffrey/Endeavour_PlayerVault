@@ -12,6 +12,10 @@ damage: 1d10
 damage_type: Feuerschaden
 target: Ein Ziel in Reichweite
 save_ability: dex
+actions: 2
+target_kind: single
+upcast: +1d10 Schaden
+upcast_damage: +1d10
 ---
 
 Platzhalter-Zauber für die App-Entwicklung. Ein greller Funke schießt auf ein Ziel zu und entzündet

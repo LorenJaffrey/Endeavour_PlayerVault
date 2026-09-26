@@ -72,7 +72,7 @@ attacks:
     range: 1,5 m
     properties: [Finesse, Parade, Leicht]
 conditions:
-  exhaustion: 1
+  exhaustion: 0
   notes: Angesengter linker Arm aus dem Kampf in der Kanalisation — 1 Erschöpfung, heilt mit der nächsten Sicheren Rast.
 ---
 
