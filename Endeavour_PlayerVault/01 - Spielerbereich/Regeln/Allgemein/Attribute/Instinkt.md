@@ -17,7 +17,7 @@ Beschreibung: Beschreibt Wahrnehmung, Bauchgefühl und das Erkennen von Gefahr, 
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Regeln/Nimble/Fertigkeit/Instinkt
+FROM #Regeln/Endeavour/Fertigkeit/Instinkt
 ```
 
 ## Sonstige Tätigkeiten

@@ -20,7 +20,7 @@ Beschreibung: Umfasst Beweglichkeit, Reflexe und Gleichgewichtssinn.
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Regeln/Nimble/Fertigkeit/Beweglichkeit 
+FROM #Regeln/Endeavour/Fertigkeit/Beweglichkeit 
 ```
 
 ## Sonstige Tätigkeiten

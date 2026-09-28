@@ -16,7 +16,7 @@ TABLE WITHOUT ID
 file.link AS "Rastoption",
 Beschreibung
 
-FROM #Regeln/Nimble/Rasten/Rastaktionen/Rastaktion 
+FROM #Regeln/Endeavour/Rasten/Rastaktionen/Rastaktion 
 
 SORT file.name
 ```

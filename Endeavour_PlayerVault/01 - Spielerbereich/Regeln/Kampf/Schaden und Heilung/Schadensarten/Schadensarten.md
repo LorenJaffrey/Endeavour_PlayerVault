@@ -12,7 +12,7 @@ TABLE WITHOUT ID
 file.link AS "Schadensart",
 Kategorie
 
-FROM #Regeln/Nimble/Schaden/Schadensart
+FROM #Regeln/Endeavour/Schaden/Schadensart
 
 WHERE Kategorie
 

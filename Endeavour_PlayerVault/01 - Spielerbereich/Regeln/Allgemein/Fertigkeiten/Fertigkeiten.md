@@ -12,7 +12,7 @@ Ein [[Fertigkeiten#Fertigkeitswurf]] stellt eine konkretere Art von [[Attribute#
 TABLE WITHOUT ID
 file.link AS "Fertigkeit",
 Attribut
-FROM #Regeln/Nimble/Fertigkeit
+FROM #Regeln/Endeavour/Fertigkeit
 SORT Attribut, file.name
 ```
 

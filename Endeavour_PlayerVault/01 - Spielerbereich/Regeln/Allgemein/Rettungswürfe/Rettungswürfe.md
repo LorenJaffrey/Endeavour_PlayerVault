@@ -25,7 +25,7 @@ TABLE WITHOUT ID
 file.link AS "Rettungswürfe",
 Beschreibung
 
-FROM #Regeln/Nimble/Rettungswurf
+FROM #Regeln/Endeavour/Rettungswurf
 
 SORT file.name
 ```

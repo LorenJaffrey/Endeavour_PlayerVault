@@ -25,7 +25,7 @@ TABLE WITHOUT ID
 file.link AS "Fertigkeit",
 Beschreibung
 
-FROM #Regeln/Nimble/Fertigkeit/Stärke 
+FROM #Regeln/Endeavour/Fertigkeit/Stärke 
 
 SORT file.name
 ```

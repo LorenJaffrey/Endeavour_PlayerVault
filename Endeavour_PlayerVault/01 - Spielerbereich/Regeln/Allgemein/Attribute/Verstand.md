@@ -18,7 +18,7 @@ Beschreibung: Misst die geistige Schärfe, Präzision der Erinnerung, logisches 
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Regeln/Nimble/Fertigkeit/Verstand 
+FROM #Regeln/Endeavour/Fertigkeit/Verstand 
 ```
 
 ## Sonstige Tätigkeiten

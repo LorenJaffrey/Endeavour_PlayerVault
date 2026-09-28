@@ -8,7 +8,7 @@ Geduld,
 SG,
 Beschreibung
 
-FROM #Regeln/Nimble/Sozial/Einstellung
+FROM #Regeln/Endeavour/Sozial/Einstellung
 
 SORT Interesse, Geduld
 ```

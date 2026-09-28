@@ -13,7 +13,7 @@ TABLE WITHOUT ID
 file.link AS "Attribut",
 Beschreibung
 
-FROM #Regeln/Nimble/Attribut
+FROM #Regeln/Endeavour/Attribut
 
 SORT file.name
 ```

@@ -18,7 +18,7 @@ Beschreibung: Misst die Fähigkeit effektiv mit anderen zu agieren. Dazu gehöre
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Regeln/Nimble/Fertigkeit/Präsenz
+FROM #Regeln/Endeavour/Fertigkeit/Präsenz
 ```
 
 ## Sonstige Tätigkeiten

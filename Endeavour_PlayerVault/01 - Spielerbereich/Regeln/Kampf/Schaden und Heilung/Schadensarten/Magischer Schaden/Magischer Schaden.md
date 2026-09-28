@@ -11,7 +11,7 @@ TABLE WITHOUT ID
 
 file.link AS "Schadensart"
 
-FROM #Regeln/Nimble/Schaden/Schadensart/Magisch
+FROM #Regeln/Endeavour/Schaden/Schadensart/Magisch
 
 WHERE Kategorie
 

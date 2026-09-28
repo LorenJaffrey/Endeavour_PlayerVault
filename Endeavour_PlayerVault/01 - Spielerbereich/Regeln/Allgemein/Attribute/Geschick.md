@@ -19,7 +19,7 @@ Beschreibung: Steht für präzise Handarbeit, saubere Waffenführung und kontrol
 ## Verbundene Fertigkeiten
 ```dataview
 TABLE
-FROM #Regeln/Nimble/Fertigkeit/Geschick
+FROM #Regeln/Endeavour/Fertigkeit/Geschick
 ```
 
 ## Sonstige Tätigkeiten

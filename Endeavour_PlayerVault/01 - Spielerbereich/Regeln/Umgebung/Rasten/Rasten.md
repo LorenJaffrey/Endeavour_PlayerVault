@@ -15,7 +15,7 @@ TABLE WITHOUT ID
 file.link AS "Rast",
 Dauer
 
-FROM #Regeln/Nimble/Rasten/Rast  
+FROM #Regeln/Endeavour/Rasten/Rast  
 
 SORT Dauer, file.name
 ```
