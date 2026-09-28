@@ -14,8 +14,12 @@ backstory: |
   zerbeulten Rucksack voller Fackelstummel und einen seltsamen Schlüssel, zu dem es noch kein
   Schloss gefunden hat. Seine Aufzeichnungen über jede gewirkte Formel füllen inzwischen ein
   ganzes Notizbüchlein.
+
+  Der Faden des Großen Gewebes, mit dem es im Labor erweckt wurde, ist nie ganz verklungen: Aus dem
+  Testobjekt ist ein kleiner Arkanist geworden, der seinen Kampfstab lieber als Zeigestock für
+  Elementformeln benutzt als zum Zuschlagen, und der Rüstungen grundsätzlich für Zeitverschwendung hält.
 class:
-  - name: Prüfling
+  - name: Arkanist
     level: 3
 species: Homunkulus
 background: Laborgeschöpf
@@ -50,27 +54,21 @@ nimble_skills:
   medicine: 1
   perception: 2
   persuasion: 1
-armor_class: 2
-armor: "[[Lederrüstung]]"
+armor_class: 0
+armor:
 speed: 30 ft
 hp:
-  current: 14
-  max: 21
+  current: 9
+  max: 12
   temp: 0
 resilience:
-  current: 7
-  max: 12
+  current: 3
+  max: 4
 senses:
   darkvision: 18 m
 attacks:
-  - name: Kurzschwert
-    kind: melee
-    attack_bonus: 2
-    damage_dice: 1d6
-    damage_bonus: 2
-    damage_type: Hieb-/Stichschaden
-    range: 1,5 m
-    properties: [Finesse, Parade, Leicht]
+  - "[[Kampfstab]]"
+  - "[[Dolch]]"
 conditions:
   exhaustion: 0
   notes: Angesengter linker Arm aus dem Kampf in der Kanalisation — 1 Erschöpfung, heilt mit der nächsten Sicheren Rast.
@@ -80,7 +78,7 @@ conditions:
 
 # `=this.name`
 
-***`=this.class[0].name` `=this.class[0].level`** · `=this.species` · `=this.background` · `=this.alignment` · `=this.experience` EP*
+***[[Arkanist]] `=this.class[0].level`** · `=this.species` · `=this.background` · `=this.alignment` · `=this.experience` EP*
 
 > [!tip] Charakterbogen nach dem Aufbau des Nimble-Bogens
 > Alle Zahlen kommen live aus den Metadaten dieser Notiz, aus [[Spell Sheet]] und [[Inventar]]. Felder mit
@@ -149,18 +147,40 @@ const c = dv.current();
 const a = c.nimble_attributes;
 const exh = c.conditions?.exhaustion ?? 0;
 const fmt = (n) => (n >= 0 ? "+" : "−") + Math.abs(n);
-const roll = (n) => `\`dice: 1d20${n - 2 * exh >= 0 ? "+" : ""}${n - 2 * exh}\``;
+const mod = (n) => `${n - 2 * exh >= 0 ? "+" : ""}${n - 2 * exh}`;
+const roll = (n) => `\`dice: 1d20${mod(n)}\``;
+// Kernattribute und Klassen-Rettungswürfe (Vorteil/Nachteil) kommen aus der Klassennotiz.
+const klasse = dv.page(c.class[0].name);
+const linked = (list) => (list ?? []).map((l) => (l?.path ?? String(l)).split("/").pop().replace(/\.md$/, ""));
+const core = linked(klasse?.Kernattribute);
+const adv = linked(klasse?.Rettungswürfe?.Vorteil);
+const dis = linked(klasse?.Rettungswürfe?.Nachteil);
+const saveNotes = {
+  st: "Stärkerettungswürfe", bw: "Beweglichkeitsrettungswürfe", ko: "Konstitutionsrettungswürfe",
+  vs: "Verstandsrettungswürfe", pr: "Präsenzrettungswürfe", en: "Entschlossenheitsrettungswürfe",
+};
+const saveRoll = (k) => {
+  const note = saveNotes[k];
+  if (adv.includes(note)) return `\`dice: 2d20kh1${mod(a[k])}\` **Vorteil**`;
+  if (dis.includes(note)) return `\`dice: 2d20kl1${mod(a[k])}\` *Nachteil*`;
+  return roll(a[k]);
+};
 const attrs = [
   ["st", "Stärke", true], ["bw", "Beweglichkeit", true], ["ko", "Konstitution", true], ["ge", "Geschick", false],
   ["in", "Instinkt", false], ["vs", "Verstand", true], ["pr", "Präsenz", true], ["en", "Entschlossenheit", true],
 ];
 dv.table(
   ["Attribut", "Wert", "Probe", "Rettungswurf"],
-  attrs.map(([k, name, save]) => [`[[${name}]]`, `**${fmt(a[k])}**`, roll(a[k]), save ? roll(a[k]) : "—"])
+  attrs.map(([k, name, save]) => [
+    core.includes(name) ? `**[[${name}]]** ⭐` : `[[${name}]]`,
+    `**${fmt(a[k])}**`,
+    roll(a[k]),
+    save ? saveRoll(k) : "—",
+  ])
 );
 ```
 
-*Ge und In haben keinen eigenen Rettungswurf, sie treiben Angriffe bzw. Initiative ([[Rettungswürfe]]).*
+*⭐ = Kernattribut der Klasse. Vorteil/Nachteil auf Rettungswürfe gibt die Klasse vor ([[Arkanist]]). Ge und In haben keinen eigenen Rettungswurf, sie treiben Angriffe bzw. Initiative ([[Rettungswürfe]]).*
 
 ## 🗡️ Fertigkeiten
 
@@ -195,20 +215,44 @@ dv.table(
 ## ⚔️ Angriffe
 
 ```dataviewjs
+// Die Waffenwerte kommen aus den Waffennotizen (Gegenstände/Waffen/Waffen), der Bonus aus den
+// Attributen: Nahkampf und Wurf mit ST, Fernkampf mit GE, Finesse wahlweise ST oder GE (der höhere).
 const c = dv.current();
+const a = c.nimble_attributes;
 const exh = c.conditions?.exhaustion ?? 0;
 const fmt = (n) => (n >= 0 ? "+" : "−") + Math.abs(n);
-const atk = (n) => `\`dice: 1d20${n - 2 * exh >= 0 ? "+" : ""}${n - 2 * exh}\``;
-dv.table(
-  ["Waffe", "Angriff", "Schaden", "Reichweite", "Eigenschaften"],
-  (c.attacks ?? []).map((w) => [
-    `[[${w.name}]]`,
-    `${fmt(w.attack_bonus)} ${atk(w.attack_bonus)}`,
-    `\`dice: ${w.damage_dice}${w.damage_bonus ? fmt(w.damage_bonus).replace("−", "-") : ""}\` ${w.damage_type ?? ""}`,
-    w.range,
-    (w.properties ?? []).map((p) => `[[${p}]]`).join(", "),
-  ])
-);
+const plain = (n) => (n >= 0 ? "+" : "") + n;
+const atk = (n) => `\`dice: 1d20${plain(n - 2 * exh)}\``;
+const name = (l) => (l?.path ?? String(l)).split("/").pop().replace(/\.md$/, "");
+const meters = (...parts) => {
+  const v = parts.filter((p) => p !== null && p !== undefined && p !== "").map((p) => String(p).replace(/\s*\(\d+\)$/, ""));
+  return v.length ? `${v.join("/")} m` : "—";
+};
+const rows = [];
+for (const entry of c.attacks ?? []) {
+  const w = entry?.path ? dv.page(entry.path) : null;
+  if (!w) continue;
+  const props = (w.Eigenschaften ?? []).map(name);
+  const propsFern = (w.EigenschaftenFern ?? []).map(name);
+  const finesse = [...props, ...propsFern].includes("Finesse");
+  const thrown = (w.file.tags ?? []).some((t) => t.includes("Wurfwaffe")) || propsFern.includes("Wurfwaffe");
+  const pick = (ranged) => (ranged ? ["GE", a.ge] : finesse && a.ge > a.st ? ["GE", a.ge] : ["ST", a.st]);
+  const row = (label, dice, type, range, list, ranged) => {
+    if (!dice) return;
+    const [attr, bonus] = pick(ranged);
+    rows.push([
+      label,
+      `${fmt(bonus)} ${atk(bonus)} <small>${attr}</small>`,
+      `\`dice: ${dice}${bonus ? plain(bonus) : ""}\` ${type ?? ""}`,
+      range,
+      list.map((p) => `[[${p}]]`).join(", "),
+    ]);
+  };
+  row(w.file.link, w.Schaden, w.Schadensart, meters(w.Reichweite), props, false);
+  const fernLabel = w.Schaden ? `${w.file.link} (${thrown ? "Wurf" : "Fernkampf"})` : w.file.link;
+  row(fernLabel, w.SchadenFern, w.SchadensartFern, meters(w.Range1, w.Range2, w.Range3), propsFern, !thrown);
+}
+dv.table(["Waffe", "Angriff", "Schaden", "Reichweite", "Eigenschaften"], rows);
 ```
 
 *Angriffswurf gegen den [[Ausweichwert]] des Ziels, die [[Rüstungsklasse]] verringert danach den Schaden ([[Angriff]]).*
@@ -255,6 +299,36 @@ dv.table(
 );
 ```
 
+## 🧙 Klasse
+
+```dataviewjs
+const c = dv.current();
+const a = c.nimble_attributes;
+const klasse = dv.page(c.class[0].name);
+const lvl = c.class[0].level;
+const names = (list) => (list ?? []).filter(Boolean).map((l) => (l?.path ? dv.fileLink(l.path, false, l.display) : String(l))).join(", ") || "—";
+if (!klasse) {
+  dv.paragraph(`> [!warning] Keine Klassennotiz „${c.class[0].name}“ gefunden.`);
+} else {
+  const ko = a.ko, en = Math.floor(a.en / 2);
+  const tp = (lvl + 1) * (klasse.BasisTP + ko);
+  const rp = (lvl + 1) * (klasse.BasisRP + en);
+  dv.table(
+    ["Klasse", "Kernattribute", "Waffen", "Rüstung", "Max. TP", "Max. RP"],
+    [[
+      `${klasse.file.link} ${lvl}`,
+      names(klasse.Kernattribute),
+      names(klasse.Übung?.Waffen),
+      names(klasse.Übung?.Rüstungen),
+      `**${tp}**<br><small>(${lvl} + 1) × (${klasse.BasisTP} + KO ${ko})</small>`,
+      `**${rp}**<br><small>(${lvl} + 1) × (${klasse.BasisRP} + EN/2 ${en})</small>`,
+    ]]
+  );
+}
+```
+
+*Stufe 1 zählt doppelt: (BasisTP + KO) × 2, danach je Stufe BasisTP + KO; RP genauso mit BasisRP und EN/2 abgerundet ([[Arkanist]]).*
+
 ## 🏕️ Rasten
 
 | Rast | Dauer | Erholung |
@@ -265,7 +339,8 @@ dv.table(
 
 ## 🎒 Ausrüstung & Sinne
 
-- **Rüstung:** `=this.armor` (RK `=this.armor_class`)
+- **Rüstung:** keine — Arkanisten sind in keiner Rüstung geübt (RK `=this.armor_class`); getragen wird eine Robe
+- **Waffen:** [[Kampfstab]] und [[Dolch]] (beides [[Einfache Waffen]])
 - **Inventar:** [[Inventar]]
 - **Zauber:** [[Spell Sheet]]
 - **Sinne:** [[Dunkelsicht]] `=this.senses.darkvision`
@@ -295,6 +370,16 @@ dv.paragraph("> [!quote] " + dv.current().species + "\n> " + String(dv.current()
 > Zauber-SG und Zauberangriff — die noch nicht auf Nimble umgestellt sind — zu den Attributen passende
 > Zahlen liefern.
 >
-> `armor` verlinkt die getragene Rüstung — Bogen und App lesen deren Max BW (`BW_cap`) für den
-> Ausweichwert. Trefferwürfel gibt es nicht mehr: sobald eine Klassennotiz (`Prüfling.md`)
-> `TP_pro_Stufe` / `RP_pro_Stufe` angibt, berechnet die App `hp.max` / `resilience.max` selbst.
+> `armor` verlinkt die getragene Rüstung (Bogen und App lesen deren Max BW, `BW_cap`, für den
+> Ausweichwert). Als [[Arkanist]] trägt der Dummy keine, das Feld bleibt deshalb leer stehen — zum
+> Testen einfach z. B. `"[[Lederrüstung]]"` eintragen und `armor_class` anpassen.
+>
+> `attacks` verlinkt nur die Waffen (`"[[Kampfstab]]"`); Schaden, Schadensart, Reichweite und
+> Eigenschaften stehen in deren Notizen unter `Gegenstände/Waffen/Waffen`, den Bonus leiten Bogen und
+> App aus ST bzw. GE ab. Ein Dolch mit Wurfprofil erscheint dabei zweimal (Nahkampf und Wurf).
+>
+> Klasse: [[Arkanist]] (`Charaktere/Klassen/Arkanist/Arkanist.md`). Trefferwürfel gibt es nicht mehr:
+> die App berechnet `hp.max` / `resilience.max` aus `BasisTP` / `BasisRP` der Klassennotiz
+> (Stufe 3, KO +1, EN +2 → 12 TP, 4 RP), liest die Kernattribute, würfelt die Klassen-Rettungswürfe mit
+> Vorteil/Nachteil und zeigt die Waffen- und Rüstungsübung. `hp.max` / `resilience.max` hier im Bogen
+> sind nur für Obsidian mitgepflegt.
