@@ -66,6 +66,8 @@ resilience:
   max: 4
 senses:
   darkvision: 18 m
+Merkmale:
+  - "[[Dunkelsicht]]"
 attacks:
   - "[[Kampfstab]]"
   - "[[Dolch]]"
