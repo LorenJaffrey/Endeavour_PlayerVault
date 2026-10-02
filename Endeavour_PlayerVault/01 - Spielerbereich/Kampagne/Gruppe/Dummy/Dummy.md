@@ -18,6 +18,23 @@ backstory: |
   Der Faden des Großen Gewebes, mit dem es im Labor erweckt wurde, ist nie ganz verklungen: Aus dem
   Testobjekt ist ein kleiner Arkanist geworden, der seinen Kampfstab lieber als Zeigestock für
   Elementformeln benutzt als zum Zuschlagen, und der Rüstungen grundsätzlich für Zeitverschwendung hält.
+Persönlichkeit:
+  Persönlichkeitsmerkmale:
+    - Nickt jeden Befehl entschlossen ab, bevor es ihn ausführt — auch die unsinnigen.
+    - Sammelt alles, was glänzt, und sortiert es nachts nach Größe.
+    - Schreibt jede gewirkte Formel in sein Notizbüchlein, mitten im Kampf.
+  Ideale: Jede Formel verdient einen zweiten Versuch.
+  Bindungen: Der Laborkittel-Fetzen um seinen Hals — das Letzte, was von seinem Erschaffer geblieben ist.
+  Makel: Hält sich für unverwundbar, solange es den Kittel-Fetzen trägt.
+Aussehen:
+  Geschlecht: keines
+  Alter: 4 Jahre seit der Erweckung
+  Größenkategorie: Klein
+  Größe: 0,9 m
+  Gewicht: 18 kg
+  Augenfarbe: Bernstein, leicht glimmend
+  Haarfarbe: keine
+  Hautfarbe: Lehmgrau, mit Runen-Nähten
 class:
   - name: Arkanist
     level: 3
@@ -353,6 +370,20 @@ if (!klasse) {
 dv.paragraph("> [!quote] " + dv.current().species + "\n> " + String(dv.current().backstory).trim().replace(/\n/g, "\n> "));
 ```
 
+## 🎭 Persönlichkeit & Aussehen
+
+```dataviewjs
+const c = dv.current();
+const p = c.Persönlichkeit ?? {};
+const traits = (p.Persönlichkeitsmerkmale ?? []).filter(Boolean);
+if (traits.length) dv.paragraph("**Persönlichkeitsmerkmale**\n" + traits.map((t) => "- " + t).join("\n"));
+for (const key of ["Ideale", "Bindungen", "Makel"]) {
+  if (p[key]) dv.paragraph(`**${key}:** ${p[key]}`);
+}
+const look = Object.entries(c.Aussehen ?? {}).filter(([, v]) => v !== null && v !== "");
+if (look.length) dv.table(["Aussehen", ""], look);
+```
+
 ---
 
 > [!note]- Technischer Hinweis (Dev-Platzhalter, zum Aufklappen)
@@ -379,6 +410,13 @@ dv.paragraph("> [!quote] " + dv.current().species + "\n> " + String(dv.current()
 > `attacks` verlinkt nur die Waffen (`"[[Kampfstab]]"`); Schaden, Schadensart, Reichweite und
 > Eigenschaften stehen in deren Notizen unter `Gegenstände/Waffen/Waffen`, den Bonus leiten Bogen und
 > App aus ST bzw. GE ab. Ein Dolch mit Wurfprofil erscheint dabei zweimal (Nahkampf und Wurf).
+>
+> `Persönlichkeit` (Persönlichkeitsmerkmale, Ideale, Bindungen, Makel) und `Aussehen` (Geschlecht, Alter,
+> Größenkategorie, Größe, Gewicht, Augen-, Haar-, Hautfarbe) folgen den Bausteinen unter
+> `zHidden/_Embeds/embed Character Sheet` und füllen in der App zusammen mit `backstory` den Tab
+> „Biografie“. Alles ist optional; ein vereinfachter Bogen kann `Persönlichkeit:` oder `Aussehen:` auch
+> als einfachen Text schreiben. In der Gruppenaufstellung der App steht der Dummy als [[Arkanist]] in
+> der hinteren Reihe; `formation: vorne`/`mitte`/`hinten` würde das überschreiben.
 >
 > Klasse: [[Arkanist]] (`Charaktere/Klassen/Arkanist/Arkanist.md`). Trefferwürfel gibt es nicht mehr:
 > die App berechnet `hp.max` / `resilience.max` aus `BasisTP` / `BasisRP` der Klassennotiz
