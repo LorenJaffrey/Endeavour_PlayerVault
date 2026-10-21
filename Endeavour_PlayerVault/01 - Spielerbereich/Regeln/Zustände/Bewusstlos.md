@@ -2,7 +2,7 @@
 aliases:
   - Bewusstlosigkeit
 tags:
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine bewusstlose Kreatur:

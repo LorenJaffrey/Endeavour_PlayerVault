@@ -30,7 +30,7 @@ Mindeststärke:
 Hände: 1
 Größe: 1
 Plaetze: 1
-Stapelgroesse: 4
+Stapelgroesse: 5
 Kosten: 5 KM
 Verfügbarkeit: häufig
 ---

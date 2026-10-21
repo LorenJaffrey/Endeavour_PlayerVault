@@ -10,6 +10,7 @@ Kernattribute:
   Waffen:
     - "[[Einfache Waffen]]"
   Rüstungen:
+    - keine
 Rettungswürfe:
   Vorteil:
     - "[[Verstandsrettungswürfe|VS-Rettungswürfe]]"
@@ -47,7 +48,9 @@ Als [[Fluchwirker]] erwarten dich:
 ---
 
 ## Startausrüstung
-**Starting Gear:** Adventurer's Garb, Sickle, Shovel
+- Abenteurerkleidung
+- Sichel
+- [[Schaufel]]
 
 ---
 

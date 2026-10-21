@@ -24,7 +24,7 @@ if (merkmale) {
 	}
 }
 
-let standardAktionen = dv.pages('#Zug/Aktion').sort(page => page.file.name);
+let standardAktionen = dv.pages('#Regeln/Endeavour/Zug/Aktion').sort(page => page.file.name);
 let standardAktionenString = '';
 for (let aktion of standardAktionen) {
 	standardAktionenString += '\n - [[' + aktion.file.name + ']]';

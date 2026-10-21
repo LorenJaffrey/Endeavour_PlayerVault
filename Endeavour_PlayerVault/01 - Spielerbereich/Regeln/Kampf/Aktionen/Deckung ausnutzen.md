@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 aliases:
   - Take Cover
 Beschreibung: "Verbessere deine Deckung um eine Stufe."

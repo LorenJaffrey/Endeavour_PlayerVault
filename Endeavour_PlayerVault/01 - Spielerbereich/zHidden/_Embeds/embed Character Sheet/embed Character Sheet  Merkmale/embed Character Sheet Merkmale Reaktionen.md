@@ -23,7 +23,7 @@ if (merkmale) {
 		dv.span(reaktionenString);
 	}
 }	
-let standardReaktionen = dv.pages('#Zug/Reaktion').sort(page => page.file.name);
+let standardReaktionen = dv.pages('#Regeln/Endeavour/Zug/Reaktion').sort(page => page.file.name);
 let standardReaktionenString = '';
 for (let reaktion of standardReaktionen) {
 	standardReaktionenString += '\n - [[' + reaktion.file.name + ']]';

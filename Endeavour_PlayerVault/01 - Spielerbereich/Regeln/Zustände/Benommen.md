@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine [[Benommen|benommene]] Kreatur:

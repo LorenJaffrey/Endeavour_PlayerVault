@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 - Eine bezauberte Kreatur kann den Bezauberer weder angreifen noch als Ziel für schädigende Fähigkeiten oder magische Effekte auswählen.

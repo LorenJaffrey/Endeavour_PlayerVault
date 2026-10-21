@@ -1,15 +1,14 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 Beschreibung: "Bereite eine [[Aktionen|Aktion]] für einen späteren Zeitpunkt vor."
 Kosten: "1 [[Aktionspunkte|AP]]"
 ---
 # `=this.file.name`
 Du führst die [[Vorbereiten]]-Aktion aus, um auf bestimmte Umstände zu warten, ehe du handelst. 
-Dazu führst du in deinem [[Zug]] diese [[Aktionen]] aus, die dich dann vor Beginn deines nächstes [[Zug|Zuges]] handeln lässt, indem du eine [[Reaktion]] ausführst.
+Dazu führst du in deinem [[Zug]] diese [[Aktionen]] aus, die dich dann vor Beginn deines nächstes [[Zug|Zuges]] handeln lässt, indem du eine [[Reaktionen]] ausführst.
 
-Zunächst musst du festlegen, welcher wahrnehmbare Umstand deine [[Reaktion]] auslösen soll. 
+Zunächst musst du festlegen, welcher wahrnehmbare Umstand deine [[Reaktionen]] auslösen soll. 
 Dann legst du fest, welche Handlung du vollziehen willst, wenn der Umstand eintritt.
 
 >[!example] Beispiel

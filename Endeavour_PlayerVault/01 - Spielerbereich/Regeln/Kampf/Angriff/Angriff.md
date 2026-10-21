@@ -13,6 +13,9 @@ Ob du mit einer [[Nahkampfwaffen|Nahkampfwaffe]] zuschlägst, eine [[Fernkampfwa
     Bei einem Treffer würfelst du den Schaden aus, es sei denn, die Art des Angriffs gibt etwas anderes an. 
     Bestimmte Angriffe bewirken zusätzlich zum Schaden oder anstelle des Schadens spezielle Effekte.
 
+## Angriffsarten
+Jeder [[Angriff]] ist entweder ein [[Nahkampfangriff]] oder ein [[Fernkampfangriff]] und entweder ein [[Einzelangriff]] oder ein [[Flächenangriff]], siehe [[Angriffsarten]].
+
 ## Mehrfachangriffe
 Die [[Angreifen|Angriffsaktion]] kann wie jede [[Aktionen|Aktion]] nur einmal pro Zug ausgeführt werden, siehe [[Aktionspunkte#Wiederholung von Aktionen]].
 Mehrmals anzugreifen erfordert eine eigene Klassen- oder Monsterfähigkeit die das ausdrücklich erlaubt.

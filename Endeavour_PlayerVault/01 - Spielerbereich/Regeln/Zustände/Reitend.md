@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Du bewegst dich mit der Kreatur die du [[Reitend|reitest]].

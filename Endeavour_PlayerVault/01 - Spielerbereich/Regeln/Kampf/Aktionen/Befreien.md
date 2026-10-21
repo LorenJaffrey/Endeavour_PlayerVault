@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 aliases:
   - Abwerfen
 Beschreibung: "Befreie dich aus einem [[Festgesetzt|Haltegriff]]"

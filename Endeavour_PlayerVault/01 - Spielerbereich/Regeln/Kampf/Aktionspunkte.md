@@ -24,7 +24,7 @@ Willst du zum Beispiel mehr Distanz zurücklegen als deine [[Bewegungsrate]] her
 Willst du mehrmals angreifen, brauchst du eine Fähigkeit die dir das ausdrücklich erlaubt (z. B. [[Mehrfachangriff]]).
 
 ## Reaktionen und der AP-Pool zwischen den Zügen
-[[Reaktion|Reaktionen]] werden außerhalb deines eigenen Zuges ausgeführt, kosten aber ebenfalls AP, meist 1.
+[[Reaktionen]] werden außerhalb deines eigenen Zuges ausgeführt, kosten aber ebenfalls AP, meist 1.
 Da dein AP-Pool sich erst am Ende deines Zuges wieder auf 3 auffüllt, zehrt eine Reaktion die du zwischen deinen Zügen einsetzt von genau diesem aufgefüllten Pool: du startst dann deinen nächsten Zug mit entsprechend weniger AP.
 
 > [!example] Beispiel

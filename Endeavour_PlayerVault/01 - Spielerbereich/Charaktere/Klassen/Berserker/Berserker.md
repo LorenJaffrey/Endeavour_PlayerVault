@@ -11,6 +11,7 @@ Kernattribute:
     - "[[Einfache Waffen]]"
     - "[[Kriegswaffen]]"
   Rüstungen:
+    - keine
 Rettungswürfe:
   Vorteil:
     - "[[Stärkerettungswürfe|ST-Rettungswürfe]]"

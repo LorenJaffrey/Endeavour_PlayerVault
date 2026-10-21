@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Die [[Bewegungsrate]] einer verlangsamten Kreatur wird halbiert (aufgerundet).

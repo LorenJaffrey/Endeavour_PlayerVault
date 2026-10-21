@@ -1,7 +1,6 @@
 ---
 tags: 
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 aliases:
   - Beeinflussen-Aktion
   - Beeinflussung

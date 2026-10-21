@@ -1,7 +1,6 @@
 ---
 tags: 
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 Beschreibung: "Mach eine [[Verstand|VS]]-basierte Probe um eine Information zu erhalten."
 Kosten: "1 [[Aktionspunkte|AP]]"
 ---

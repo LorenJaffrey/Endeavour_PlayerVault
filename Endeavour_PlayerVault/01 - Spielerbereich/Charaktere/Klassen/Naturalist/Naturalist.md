@@ -6,6 +6,11 @@ BasisRP: 1
 Kernattribute:
   - "[[Konstitution]]"
   - "[[Instinkt]]"
+Übung:
+  Waffen:
+    - "[[Einfache Waffen]]"
+  Rüstungen:
+    - keine
 Rettungswürfe:
   Vorteil:
     - "[[Konstitutionsrettungswürfe|KO-Rettungswürfe]]"
@@ -15,15 +20,15 @@ Rettungswürfe:
     - "[[Präsenzrettungswürfe|PR-Rettungswürfe]]"
 ---
 # `=this.file.name`
-The trees whisper their excitement, the clouds sing with glee. Rejoice! The Master of Storm & Fang arrives. All who would seek passage through the ancient grove, heed this warning: Do not provoke the forest or its inhabitants. Beseech for passage humbly, even if its guardian is unseen, rest assured that you… are not.
+Die Bäume flüstern vor Aufregung, die Wolken singen vor Freude. Freut euch! Der Meister von Sturm und Reißzahn naht. Wer immer den alten Hain durchqueren will, achte auf diese Warnung: Fordert den Wald und seine Bewohner nicht heraus. Bittet demütig um Durchgang, auch wenn sein Wächter unsichtbar bleibt, denn seid gewiss, unsichtbar heißt nicht abwesend.
 
-Those who traverse the woodlands may feel the vigilant gaze of a Stormshifter upon them. Legend speaks of an ancient union between mortal and dryad, birthing beings capable of wielding lightning and tempests as others wield blade and shield. This is but half the tale.
+Wer durch die Wälder zieht, spürt vielleicht den wachsamen Blick eines Naturalisten auf sich ruhen. Die Legende erzählt von einem uralten Bund zwischen Sterblichem und Dryade, der Wesen hervorbrachte, die Blitz und Sturm ebenso führen wie andere Klinge und Schild. Doch das ist nur die halbe Geschichte.
 
-Wanderers recount encounters with beings, some wise and benevolent, others fearsome, with claws that sparked with lightning and pelts sharp as daggers. They are as one with storm and beast, embodying the serene beauty and raw power of nature’s grace. As a Stormshifter, you can:
+Wanderer berichten von Begegnungen mit solchen Wesen, manche weise und wohlwollend, andere furchteinflößend, mit Krallen, die vor Blitzen knisterten, und Fell, scharf wie Dolche. Sie sind eins mit Sturm und Tier, verkörpern die stille Schönheit und die rohe Macht der Natur. Als Naturalist kannst du:
 
-* **Aid your allies** in whatever role is most needed.
-* **Wade into the fray** as a shapeshifted beast ranging from friendly to vicious, indomitable, or HORRIBLE.
-* **Cast powerful spells** from a distance to strike down, control, mend, and more.
+* **Deinen Verbündeten helfen**, in welcher Rolle auch immer sie dich am meisten brauchen.
+* **Dich ins Getümmel stürzen**, verwandelt in ein Tier, das von freundlich bis grausam, von unbeugsam bis GRAUENHAFT reichen kann.
+* **Mächtige Zauber wirken**, aus der Distanz niederstrecken, kontrollieren, heilen und mehr.
 
 ---
 
@@ -33,7 +38,7 @@ Wanderers recount encounters with beings, some wise and benevolent, others fears
 
 ---
 
-## Stratausrüstung
+## Startausrüstung
 
 
 ---

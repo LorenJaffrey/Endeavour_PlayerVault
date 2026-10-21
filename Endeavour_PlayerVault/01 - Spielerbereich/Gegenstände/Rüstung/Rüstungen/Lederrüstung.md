@@ -9,6 +9,7 @@ Heimlichkeit:
 Eigenschaften: 
 
 Gewicht: 10 Pfund
+Plaetze: 3
 Kosten: 10 GM
 ---
 # `=this.file.name`

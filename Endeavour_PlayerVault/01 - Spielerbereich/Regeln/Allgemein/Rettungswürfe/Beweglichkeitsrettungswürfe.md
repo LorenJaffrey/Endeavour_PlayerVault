@@ -4,6 +4,7 @@ tags:
 aliases:
   - Beweglichkeitsrettungswurf
   - BW-Rettungswurf
+  - BW-Rettungswürfe
 Beschreibung: "Ausweichen, um Schaden zu vermeiden."
 ---
 # `=this.file.name`

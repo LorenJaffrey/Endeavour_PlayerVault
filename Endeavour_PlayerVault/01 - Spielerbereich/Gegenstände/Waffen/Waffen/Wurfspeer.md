@@ -23,7 +23,7 @@ Mindeststärke:
 Hände: 1
 Größe: 3
 Plaetze: 2
-Stapelgroesse: 2
+Stapelgroesse: 3
 Kosten: 2 GM
 Verfügbarkeit: häufig
 ---

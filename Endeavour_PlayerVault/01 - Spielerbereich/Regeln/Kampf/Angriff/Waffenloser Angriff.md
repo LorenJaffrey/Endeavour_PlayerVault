@@ -12,5 +12,5 @@ Nach den Spielbegriffen ist dies ein [[Waffenloser Angriff]] - ein [[Nahkampfang
 
 ## Schaden
 Du führst einen [[Angriffswurf]] gegen das Ziel aus. 
-Dein Bonus auf den Wurf entspricht normalerweise deinem [[Stärke]]. 
-Bei einem Treffer erleidet das Ziel [[Wuchtschaden]] in Höhe von 1 plus deinem [[Stärke]].
+Dein Bonus auf den Wurf entspricht normalerweise deiner [[Stärke]]. 
+Bei einem Treffer erleidet das Ziel [[Wuchtschaden]] in Höhe von 1 plus deiner [[Stärke]].

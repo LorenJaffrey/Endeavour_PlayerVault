@@ -1,11 +1,10 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine [[Betäubt|betäubte]] Kreatur:
 - hat [[Vorteil und Nachteil|Nachteil]] bei [[Beweglichkeitsrettungswürfe|BW-Rettungswürfen]]
 - verliert zwei [[Aktionspunkte|Aktionspunkte]] pro [[Runde]]
 - verliert ihren [[Beweglichkeit|BW]]-Bonus auf den [[Ausweichwert]]
-- kann keine [[Reaktion|Reaktionen]] nutzen
+- kann keine [[Reaktionen]] nutzen

@@ -1,11 +1,10 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine [[Kampfunfähig|kampfunfähige]] Kreatur:
-- kann keine [[Aktionen|Aktionen]] oder [[Reaktion|Reaktionen]] ausführen.
+- kann keine [[Aktionen|Aktionen]] oder [[Reaktionen|Reaktionen]] ausführen.
 - scheitert automatisch bei [[Beweglichkeitsrettungswürfe|BW-Rettungswürfen]]
 - [[Angriff|Angriffe]] gegen die Kreatur haben [[Vorteil und Nachteil|Vorteil]]
 - [[Nahkampfangriff|Nahkampfangriffe]] gegen die Kreatur sind automatisch [[Kritische Treffer]]

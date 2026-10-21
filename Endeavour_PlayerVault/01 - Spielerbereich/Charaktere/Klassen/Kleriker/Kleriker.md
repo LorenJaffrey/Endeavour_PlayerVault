@@ -6,6 +6,11 @@ BasisRP: 0
 Kernattribute:
   - "[[Entschlossenheit]]"
   - "[[Instinkt]]"
+Übung:
+  Waffen:
+    - "[[Einfache Waffen]]"
+  Rüstungen:
+    - keine
 Rettungswürfe:
   Vorteil:
     - "[[Entschlossenheitsrettungswürfe|EN-Rettungswürfe]]"
@@ -15,12 +20,12 @@ Rettungswürfe:
     - "[[Beweglichkeitsrettungswürfe|BW-Rettungswürfe]]"
 ---
 # `=this.file.name`
-Let all who are afflicted come. I will mend thy bones and soothe thy wounds. Thou shalt revere the gifts of life and death, neither of which is ever given or taken. Rather, we are all souls merely journeying between this realm and that of the beyond. But alas, often do these wandering souls find themselves bereft of guidance. Thus falls upon the Shepherd the solemn duty—to be a beacon of light to those ensnared in darkness, and darkness to those who, in hubris, deem themselves to be the light.
+Kommt alle her, die ihr leidet. Ich werde eure Wunden heilen und euren Schmerz lindern. Ehrt die Gaben von Leben und Tod, denn keine von beiden wird je gegeben oder genommen. Vielmehr sind wir alle Seelen, die nur zwischen diesem Reich und dem Jenseits wandern. Doch leider finden sich diese wandernden Seelen oft ohne Führung wieder. So fällt dem Kleriker die ernste Pflicht zu, ein Leuchtfeuer für jene zu sein, die in Dunkelheit gefangen sind, und Dunkelheit für jene, die sich in ihrem Hochmut selbst für das Licht halten.
 
-For many, the journey of service is a difficult path—yet, in this task we are not solitary. Our Lifebinding Spirits, the steadfast companions of our faith, are bound beside us, comforting and aiding us in the stewardship we’ve been given. As a Shepherd, you:
+Für viele ist der Weg des Dienens ein schwerer Pfad, doch in dieser Aufgabe sind wir nicht allein. Unsere Lebensbindenden Geister, die treuen Gefährten unseres Glaubens, stehen uns zur Seite, trösten und unterstützen uns in der Verantwortung, die uns übertragen wurde. Als Kleriker kannst du:
 
-* **Embrace the Balance.** Embody the forces of Life and Death, wielding spells from your chosen domains. As you walk the path of balance, ponder which way the scales shall tip: towards healing or harm?
-* **Lead a Faithful Companion.** Summon a Lifebinding spirit to your side, providing invaluable support in battle. Whether bolstering allies with healing or smiting foes with righteous fury, your spirit companion stands ready to aid in the struggle.
+* **Das Gleichgewicht annehmen.** Verkörpere die Kräfte von Leben und Tod und wirke Zauber aus deinen gewählten Domänen. Während du den Pfad des Gleichgewichts beschreitest, entscheidest du, in welche Richtung sich die Waage neigt, zur Heilung oder zum Schaden.
+* **Einen treuen Gefährten anführen.** Beschwöre einen Lebensbindenden Geist an deine Seite, der dir unschätzbare Unterstützung im Kampf bietet. Ob er Verbündete mit Heilung stärkt oder Feinde mit gerechtem Zorn straft, dein Geistgefährte steht bereit, dir im Kampf zu helfen.
 
 ---
 

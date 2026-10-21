@@ -1,7 +1,6 @@
 ---
 tags: 
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 Beschreibung: "Versuche dich zu verstecken."
 Kosten: "1 [[Aktionspunkte|AP]]"
 ---

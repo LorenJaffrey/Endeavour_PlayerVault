@@ -43,3 +43,5 @@ show tree
 ```
 
 ## Sonstiges
+- Loottable je Kreatur hinterlegen
+- Einordnung Belohnungen (wieviel Gold Beute auf welcher Stufe)

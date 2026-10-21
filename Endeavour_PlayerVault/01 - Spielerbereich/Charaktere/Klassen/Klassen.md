@@ -9,6 +9,8 @@ TABLE WITHOUT ID
 
 file.link AS "Title",
 Kernattribute,
+BasisTP AS "TP",
+BasisRP AS "RP",
 Beschreibung
 
 FROM #Regeln/Endeavour/Charakter/Klasse

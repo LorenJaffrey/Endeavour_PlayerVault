@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 Beschreibung: "Versuche einen Gegner zu Boden oder wegzustoßen."
 Kosten: "1 [[Aktionspunkte|AP]]"
 ---

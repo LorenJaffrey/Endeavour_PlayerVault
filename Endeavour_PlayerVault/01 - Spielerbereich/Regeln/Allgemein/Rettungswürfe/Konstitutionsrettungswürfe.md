@@ -4,6 +4,7 @@ tags:
 aliases:
   - Konstitutionsrettungswurf
   - KO-Rettungswurf
+  - KO-Rettungswürfe
 Beschreibung: "Eine [[Krankheiten|Krankheit]], ein Gift oder eine andere Gefahr ertragen, die deine Lebenskraft schwächt."
 ---
 # `=this.file.name`

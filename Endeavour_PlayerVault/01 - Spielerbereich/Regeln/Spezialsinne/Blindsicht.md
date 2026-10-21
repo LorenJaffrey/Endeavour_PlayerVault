@@ -2,7 +2,7 @@
 aliases:
 tags:
   - Merkmal
-  - Sinn/Spezialsinn
+  - Regeln/Endeavour/Sinn/Spezialsinn
 Einsatz: Passiv
 ---
 # `=this.file.name`

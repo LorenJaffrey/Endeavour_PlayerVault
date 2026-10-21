@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Du giltst als [[Bedroht]], solange du dich in Nahkampfreichweite mindestens eines Gegners befindest, der dich sehen kann und nicht [[Kampfunfähig]] ist (siehe [[Fernkampfangriff]]).

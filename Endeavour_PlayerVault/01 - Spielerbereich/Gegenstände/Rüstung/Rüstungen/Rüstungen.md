@@ -14,6 +14,7 @@ Heimlichkeit,
 Stärke, 
 Eigenschaften, 
 Gewicht, 
+Plaetze AS "Plätze", 
 Kosten
 FROM #Gegenstand/Rüstung
 SORT Klasse, RK, BW_cap

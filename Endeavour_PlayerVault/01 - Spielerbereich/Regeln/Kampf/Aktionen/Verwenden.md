@@ -1,7 +1,6 @@
 ---
 tags: 
-  - Regeln/Endeavour
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 Beschreibung: "Verwende einen komplexen Gegenstand."
 Kosten: "1 [[Aktionspunkte|AP]]"
 ---

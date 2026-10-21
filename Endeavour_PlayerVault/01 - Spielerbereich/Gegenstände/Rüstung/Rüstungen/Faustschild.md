@@ -8,6 +8,7 @@ BW_cap:
 Eigenschaften:
   - "[[Parade]]"
 Gewicht: 2 Pfund
+Plaetze: 1
 Kosten: 10 GM
 ---
 # `=this.file.name`

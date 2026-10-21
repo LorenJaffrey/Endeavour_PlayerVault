@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine taube Kreatur kann nicht hören und scheitert automatisch bei jedem [[Attribute#Attributswurf]] oder [[Fertigkeiten#Fertigkeitswurf]], der Gehör erfordert.

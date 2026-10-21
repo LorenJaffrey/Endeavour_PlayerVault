@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour/WIP
-  - Zug/Aktion
+  - Regeln/Endeavour/Zug/Aktion
 aliases:
 Beschreibung: "Bewege dich um das Doppelte deiner [[Bewegungsrate]]."
 Kosten: "3 [[Aktionspunkte|AP]]"

@@ -9,6 +9,7 @@ aliases:
 # `=this.file.name`
 Bei einem [[Fernkampfangriff]] schießt du mit einem Bogen, wirfst eine Axt oder schickst auf anderem Wege Geschosse in Richtung eines Gegners in einiger Entfernung.
 Auch viele Zauber enthalten [[Fernkampfangriff|Fernkampfangriffe]].
+Ein [[Fernkampfangriff]] ist außerdem entweder ein [[Einzelangriff]] oder ein [[Flächenangriff]], siehe [[Angriffsarten]].
 
 ## Reichweite
 Du kannst [[Fernkampfangriff|Fernkampfangriffe]] nur gegen Ziele innerhalb einer bestimmten Reichweite ausführen. 

@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine versteinerte Kreatur wird mit ihrer gesamten nicht-magischen Ausrüstung, die sie trägt oder in Händen hält, in eine feste unbelebte Substanz verwandelt (normalerweise Stein). 

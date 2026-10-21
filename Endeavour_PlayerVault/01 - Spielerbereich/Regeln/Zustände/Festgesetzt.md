@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Die [[Bewegungsrate]] einer [[Festgesetzt|festgesetzten]] Kreatur ist 0 und kann durch keinen Bonus erhöht werden.

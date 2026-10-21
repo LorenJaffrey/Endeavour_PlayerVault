@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand
+  - Regeln/Endeavour/Zustand
 ---
 # `=this.file.name`
 Eine unsichtbare Kreatur ist ohne die Hilfe von Magie oder besonderen Sinnen nicht zu sehen. 

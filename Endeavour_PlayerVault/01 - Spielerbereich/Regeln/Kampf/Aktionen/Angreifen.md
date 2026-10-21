@@ -1,7 +1,6 @@
 ---
 tags: 
-  - Regeln/Endeavour
-  - Zug/Aktion/Angriff
+  - Regeln/Endeavour/Zug/Aktion/Angriff
 aliases: 
   - Angriffsaktion
 Beschreibung: "Führe einen [[Nahkampfangriff]] oder [[Fernkampfangriff]] durch."

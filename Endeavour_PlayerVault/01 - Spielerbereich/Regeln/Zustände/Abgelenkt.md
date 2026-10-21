@@ -1,7 +1,6 @@
 ---
 tags:
-  - Regeln/Endeavour
-  - Zustand/Marker
+  - Regeln/Endeavour/Zustand/Marker
 ---
 # `=this.file.name`
 Ein Ziel ist [[Abgelenkt]], wenn es:
